@@ -9,3 +9,4 @@ To display custom css. No other addon. (Above) is all official links.
 
 
 Repo is designed with CSS for different sites. Mainly an archive for myself.
+I attempt to make all ***css code*** user-friendly. So you're capable of editing yourself if you're not that familiar. 
