@@ -1,0 +1,331 @@
+/*
+* DESIGNED BY Cake#0585 (Discord if any problems)
+* THANKS FOR USING
+* LET YOUR EYES THANK YOU.
+* EDIT TO YOUR PLEASING. TRIED TO MAKE IT AS USER-FRIENDLY AS POSSIBLE.
+*/
+
+/* ------------------------------=------------------------------ */
+
+/* HEADER */
+.header-main {
+    background-color: #212121;
+}
+
+.primary-navigation li:hover>a {
+    background-color: #101010;
+    transition: .8s;   
+}
+
+.site-navigation .current-menu-item>a {
+    color: #bdbdbd;
+    background-color: #101010;
+}
+
+.primary-navigation a {
+    color: #505050;
+    font-weight: bold;
+}
+
+.search-toggle {
+    background-color: #191919;
+}
+
+.search-toggle:hover {
+    background-color: #101010;
+    transition: .8s;
+}
+
+.site:before {
+    background-color: #191919;
+}
+
+.secondary-navigation li:hover>a {
+    background-color: #101010;
+    transition: .8s;
+}
+
+.site-navigation li {
+    border-top: 1px solid #101010;
+}
+
+.secondary-navigation ul ul {
+    background-color: #212121;
+}
+
+.secondary-navigation {
+    border-bottom: 1px solid #101010;
+}
+
+.secondary-navigation ul ul a:hover {
+    background-color: #101010;
+    transition: .8s;
+}
+
+.featured-content .entry-meta {
+    text-align: center;
+}
+
+/* END HEADER */
+
+/* ------------------------------=------------------------------ */
+
+/* FEATURED CONTENT */
+.grid .featured-content .entry-header {
+    background-color: #101010;
+    border-color: #191919;
+}
+
+/* END FEATURED CONTENT */
+
+/* ------------------------------=------------------------------ */
+
+/* MAIN BODY */
+div#primary {
+    background-color: #212121;
+}
+
+.page-header, .page-content, .post-navigation, .site-content .entry-header, .site-content .entry-content, .site-content .entry-summary, .site-content footer.entry-meta {
+    background-color: #191919;
+}
+
+
+.site-content .entry-meta {
+    background-color: #101010;
+    text-align: center;
+}
+
+body.custom-background {
+    background-color: #101010;
+}
+
+/* END MAIN BODY */
+
+/* ------------------------------=------------------------------ */
+
+/* Article ARTICLE THUMBNAILS */
+
+/* by default the image is lowered in opacity */
+a.post-thumbnail {
+    opacity: .6;
+    border: 5px #101010 solid;
+}
+
+/* this makes the opacity full on hover. */
+a.post-thumbnail:hover {
+    opacity: 1;
+}
+
+/* END ARTICLE THUMBNAILS */
+
+/* ------------------------------=------------------------------ */
+
+/* ARTICLE HEADLINES + DATE + TAGS */
+.entry-title  {
+    text-align: center;
+}
+
+.entry-title a {
+    color: #505050;
+    font-weight: bolder;
+}
+
+.entry-title a:hover {
+    background-color: #101010;
+    color: #bdbdbd;
+    transition: .8s;
+}
+
+.cat-links a:hover {
+    color: #bdbdbd;
+    transition: .8s;    
+}
+
+.entry-meta a {
+    font-weight: bold;
+    color: #bdbdbd;
+}
+
+.entry-meta a:hover {
+    color: #bdbdbd;
+    transition: .8s;
+}
+
+.entry-meta .tag-links a {
+    background-color: #101010;
+    color: #505050;
+}
+
+.entry-meta .tag-links a:hover {
+    background-color: #101010;
+    color: #bdbdbd;
+}
+
+
+.entry-meta .tag-links a:before {
+    border-top: 10px solid transparent;
+    border-right: 8px solid #101010;
+    border-bottom: 10px solid transparent;
+}
+
+.entry-meta .tag-links a:hover:before {
+    border-right: 8px solid #101010;
+}
+
+.entry-meta .tag-links a:after {
+    background-color: #bdbdbd;
+}
+/* END ARTICLE HEADLINES + DATE + TAGS */
+
+/* ------------------------------=------------------------------ */
+
+/* ARTICLE DESCRIPTION */
+.site-content .entry-content {
+    color: #505050;
+}
+
+
+.entry-content a {
+    font-weight: bolder;
+    color: #888888;
+}
+/* END ARTICLE DESCRIPTION
+
+/* ------------------------------=------------------------------ */
+
+/* WIDGET TAB */
+.content-sidebar {
+    bottom: 47.2px;
+}
+
+.content-sidebar .widget .widget-title {
+    border-top: 5px solid #101010;
+    color: #505050;
+    text-align: center;
+}
+
+.extended-tags-btn-orange a {
+background-image: -webkit-linear-gradient(top,#101010,#101010);
+}
+
+.extended-tags-btn-orange a:hover {
+background-color: #191919;
+}
+
+.extended-tags-btn a {
+        border: 0px solid #ccc; 
+}
+
+.content-sidebar .widget a {
+    color: #505050;
+    font-weight: bold;
+}
+
+.content-sidebar .widget a:hover {
+    color: #bdbdbd;
+}
+
+/* WIDGET THUMBNAILS */
+.wpp-thumbnail {
+    opacity: .4;
+        border-bottom: 3px #101010 solid;
+}
+
+.wpp-thumbnail:hover {
+    opacity: 1;
+}
+/* END WIDGET THUMBNAILS */
+/* END WIDGET TAB*/
+
+/* ------------------------------=------------------------------ */
+
+/* SPONDERED IMAGES (DISCORD, TWITTER ETC) */
+
+.textwidget {
+    display: none;
+}
+
+/* END SPONDERED IMAGES (DISCORD, TWITTER ETC) */
+
+/* ------------------------------=------------------------------ */
+
+/* SIDEBAR SEARCHBAR */
+
+.content-sidebar .widget input, .content-sidebar .widget textarea {
+    display: none;
+}
+
+/* END SIDEBAR SEARCHBAR */
+
+/* ------------------------------=------------------------------ */
+
+/* PAGE NUMBER / PAGE COUNTER */
+
+.paging-navigation .page-numbers.current {
+    background-color: #101010;
+    border-top: 5px solid #bdbdbd;
+    color: #505050;
+}
+
+.paging-navigation a:hover {
+    background-color: #101010;
+    color: #505050;
+    border-top: 5px solid #bdbdbd;
+    transition: .8s;
+}
+
+.paging-navigation a {
+    color: #505050;
+}
+
+/* END PAGE NUMBER / PAGE COUNTER */
+
+/* ------------------------------=------------------------------ */
+
+/* FOOTER */
+.site-footer {
+    background-color: #191919;
+    text-align: center;
+
+}
+
+footer#colophon a {
+    color: #505050;
+    font-weight: bolder;
+    margin-right: 25px;
+}
+
+footer#colophon a:hover {
+    background-color: #101010;
+    color: #bdbdbd;
+}
+
+/* END FOOTER */
+
+/* ------------------------------=------------------------------ */
+
+/* SCROLLBAR */
+
+/* width */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0b0b0b;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #212121;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #bdbdbd;
+}
+
+/* END SCROLLBAR */
+
