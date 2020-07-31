@@ -1,6 +1,11 @@
 # WHITE_REDACTED, INITIATE DARKMODE.
 ![INITIATE_it](https://i.imgur.com/1rFKCCM.jpg "Dark_Mode_Activated.")
 
+## Before/Afters
+* [OzBargain Before/After](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=23972576-d2f4-11ea-bf88-a15b6c7adf9a)
+* [DSOGaming Before/After](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=9a79ec6e-d2f4-11ea-bf88-a15b6c7adf9a)
+
+----
 
 I use the following links below (appropriate to each browser) to style the websites with the code uploaded here. All are **official** links.
 * [Stylus (Chrome)](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en), 
