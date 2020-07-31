@@ -1,0 +1,201 @@
+
+                /*
+                  * DESIGNED BY Cake#0585. (Discord if any problems)
+                   * THANKS FOR USING.
+                    * LET YOUR EYES THANK YOU.
+                     * I WANT TO THANK ((PLE)) FOR DOING A LOT OF THE HEAVY LIFTING.
+                      * EDIT TO YOUR PLEASING. TRIED TO MAKE IT AS USER-FRIENDLY AS POSSIBLE.
+                       */
+
+
+                /* --------- S P A C I N G----------- */
+                        /* --- MAIN HEADER --- */
+                /* --------- S P A C I N G----------- */
+
+                     /* V Search Box settings V*/
+    .searchBox {
+    background-color: #101010;
+    border: 1px solid #191919;
+    color: #bdbdbd;
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    text-align: center;
+    outline: none;
+    }
+
+    [type=search]:focus {
+    width: 450px;
+    }
+                    /* ^ (end) Search Box settings ^ */
+
+                /* --------- S P A C I N G----------- */
+
+                        /* V CART SETTINGS V */
+    /* v This is the text-colour of "cart" + background to match "my account" / "store locator" v */
+    .CartMiniContent {
+    color: #101010;
+    background-color: #bdbdbd;
+    }
+    /* ^ This is the text-colour of "cart" + background to match "my account" / "store locator" ^ */
+
+    /* v This is the text-colour of "Total" whilst hovering over cart v */
+    .CartMiniItemPrice, .CartMiniItemTotal {
+    color: #bdbdbd;
+    }
+    /* ^ This is the text-colour of "Total" whilst hovering over cart ^ */
+
+    /* v Border of the "Cart" drop down v */
+    .CartMiniDropDown {
+    border: 2px solid #505050;
+    }
+    /* ^ Border of the "Cart" drop down ^ */
+
+    /* v Makes the background behind "Total" dark, and gives it a bottom border spacing. v */
+    .CartMiniDropDownItem {
+    background-color: #191919;
+    border-bottom: 2px solid #212121;
+    }
+    /* ^ Makes the background behind "Total" dark, and gives it a bottom border spacing. ^ */
+
+    /* v Makes the background behind "View Card" and "Checkout" dark v */
+    .cartMiniButtonSticky {
+    background-color: #212121;
+    }
+    /* ^ Makes the background behind "View Card" and "Checkout" dark ^*/
+                        /* ^ (end) CART SETTINGS ^ */
+
+                /* --------- S P A C I N G----------- */
+
+                      /* V MY ACCOUNT SETTINGS V */
+    /* V These three effect the "My account" drop-down text V */
+    .loginHeader {
+    color: #bdbdbd;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 16px;
+    }
+
+    .loginMyPLELink {
+    color: #bdbdbd;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    }
+
+    .loginMyPLELink:hover {
+    background-color: #101010;
+    transition: .8s;  
+    }
+    /* ^ These three effect the "My account" drop-down text ^ */
+
+    /* v makes the area effected by the background-hover clickable with the link v */
+    .loginMyPLELink a {
+    display: block;
+    padding: 10px;
+    margin: -10px;
+    }
+    /* ^ makes the area effected by the background-hover clickable with the link ^ */
+
+    /* v changed the way the dropdown works, smaller and more compact to fit the theme of the delivery one v */
+    .CartMiniAccountDropDown {
+    display: inline-block;
+    margin-left: -75px;
+    width: 150px;
+    position: absolute;
+    border: 1px solid #505050;
+    }
+    /* ^ changed the way the dropdown works, smaller and more compact to fit the theme of the delivery one ^ */
+                      /* ^ (end) MY ACCOUNT SETTINGS ^ */
+
+                /* --------- S P A C I N G----------- */
+
+                      /* ^ DELIVERY SETTINGS ^ */
+    /* v These effect the text colour in the delivery dropdown menu v */
+    .LocationDropDown  {
+    color: #bdbdbd;
+    border: 1px solid #505050;
+    }
+    .LocationDropDown a {
+    color: #bdbdbd;
+    }
+    /* ^ These effect the text colour in the delivery dropdown menu ^ */
+
+    /* v Hides the icon of the geo-location v */
+    .geolocationIcon {
+    display: none;
+    }
+    /* ^ Hides the icon of the geo-location ^ */
+
+    /* v Makes the "postcode" input box dark, neat and tidy etc, ya know? v */
+    .LocationPostcodeCapture input {
+    background-color: #101010;
+    color: white;
+    outline: none;
+    border: 1px solid #191919;
+    }
+    /* ^ Makes the "postcode" input box dark, neat and tidy etc, ya know? ^ */
+    
+    /* v Adds some extra spacing between the postcode box and click and collect stores v */
+    .geolocationWrapper {
+    margin-bottom: 15px;
+    }
+    /* ^ Adds some extra spacing between the postcode box and click and collect stores ^ */
+
+    /* v Makes "Delivery" and "Click and Collect" stand out more v */
+    .LocationStoreSelectorType {
+    color: #bdbdbd;
+    font-weight: bolder;
+    }
+    /* ^ Makes "Delivery" and "Click and Collect" stand out more ^ */
+
+    /* v Makes the "states" color & background stand out more v */
+    .LocationStoreSelectorState {
+    color: #bdbdbd;
+    background-color: #191919;
+    }
+    /* ^ Makes the "states" color & background stand out more ^ */
+ 
+    /* v Hover effects for all text (they're lowkey buttons) v */
+    .LocationStoreSelectorState:hover {
+    background-color: #101010;
+    transition: .8s;  
+    }
+    .LocationStoreSelector:hover {
+    background-color: #101010;
+    transition: .8s;  
+    }
+    /* ^ Hover effects for all text (they're lowkey buttons)  */
+                      /* ^ (end) DELIVERY SETTINGS ^ */
+
+                /* --------- S P A C I N G----------- */
+                        /* --- END
+                                MAIN 
+                                 HEADER --- */
+                /* --------- S P A C I N G----------- */
+
+
+
+                       /* --- MAIN BODY --- */
+
+    .themeLight {
+    --bg-colour-standard: #212121;                  /* main content / body colours */
+    --bg-colour-almostStandard: #f5f5f5;
+    --bg-colour-contrast: #101010;                  /* uhm. this effects the "email address" in the footer.. yeah. */
+    --bg-colour-almostContrast: #363636;
+    --bg-colour-contrastButton: #696969;
+    --fg-colour-standard: #505050;                  /* Pricing numbers + cart */
+    --fg-colour-almostStandard: #bdbdbd;            /* Products name */
+    --border-colour-standard: #101010;              /* Border colour on all products */
+    --border-colour-alternate: #f1f1f1;             /* has no effect now */
+    --border-colour-standardFeature: #505050;       /* Hover effect on borders over products */
+    --border-colour-otherFeature: #bdbdbd;          /* "My account" + "Delivery" border colours*/
+    --fg-colour-inputBorder: #000;
+    --fg-colour-generalBorder: #bdbdbd;             /* Review Border colours */
+    --fg-colour-hardBorder: #cacaca;
+    --bg-colour-stdButton: #191919;                 /* Logout button in "My account" colour */
+    --bg-colour-stdButton-hover: #101010;           /* Hover effect on logout button */
+    --bg-colour-stdButton-hover-border: #101010;    /* ..Border colour of logout button */
+    --fg-colour-stdButton-hover: #bdbdbd;           /* Currently this effects the COVID-19 status banner and the "My account" hover text of logout */
+    --plered: #191919;                              /* header and overall accent colours */ /*(Thanks PLE for the heavy lifting ♡)*/
+    }
