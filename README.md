@@ -1,5 +1,5 @@
-# WHITE_REDACTED, INITATE DARKMODE.
-![Initate_it](https://i.imgur.com/RXDg9ia.jpg "Dark_Mode_Activated.")
+# WHITE_REDACTED, INITIATE DARKMODE.
+![INITIATE_it](https://i.imgur.com/1rFKCCM.jpg "Dark_Mode_Activated.")
 
 
 I use 
