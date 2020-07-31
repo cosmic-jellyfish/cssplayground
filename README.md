@@ -1,4 +1,6 @@
 # WHITE_REDACTED, INITATE DARKMODE.
+![Initate_it](https://i.imgur.com/THcFrtY.png "Dark_Mode_Activated.")
+
 
 I use 
 * [Stylus (Chrome)](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en), 
