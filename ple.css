@@ -8,9 +8,9 @@
                        */
 
 
-                /* --------- S P A C I N G----------- */
+                /* --------- S P A C I N G ----------- */
                         /* --- MAIN HEADER --- */
-                /* --------- S P A C I N G----------- */
+                /* --------- S P A C I N G ----------- */
 
                      /* V Search Box settings V*/
     .searchBox {
@@ -29,7 +29,7 @@
     }
                     /* ^ (end) Search Box settings ^ */
 
-                /* --------- S P A C I N G----------- */
+                /* --------- S P A C I N G ----------- */
 
                         /* V CART SETTINGS V */
     /* v This is the text-colour of "cart" + background to match "my account" / "store locator" v */
@@ -58,14 +58,40 @@
     }
     /* ^ Makes the background behind "Total" dark, and gives it a bottom border spacing. ^ */
 
-    /* v Makes the background behind "View Card" and "Checkout" dark v */
+    /* v Makes the background behind "View Cart" and "Checkout" dark v */
     .cartMiniButtonSticky {
     background-color: #212121;
     }
-    /* ^ Makes the background behind "View Card" and "Checkout" dark ^*/
+    /* ^ Makes the background behind "View Cart" and "Checkout" dark ^*/
+
+    /* v These (3) three, make changes to the "Cart" drop-down similar to the "My account" drop down. v */
+    .CartMiniDropDown {
+    display: inline-block;
+    margin-left: -12.3em;
+    width: 150px;
+    position: absolute;
+    z-index: 30;
+    border: 1px solid #505050;
+    }
+
+    .CartMiniItemPrice, .CartMiniItemTotal {
+    width: 100%;
+    font-weight: 700;
+    display: inline-block;
+    padding: 5px;
+    font-size: 14px;
+    vertical-align: middle;
+    text-align: center;
+    }
+
+    .CartMiniDropDownItem {
+    padding: 0px;
+    margin-bottom: 10px;
+    }
+    /* ^ These (3) three, make changes to the "Cart" drop-down similar to the "My account" drop down. ^ */
                         /* ^ (end) CART SETTINGS ^ */
 
-                /* --------- S P A C I N G----------- */
+                /* --------- S P A C I N G ----------- */
 
                       /* V MY ACCOUNT SETTINGS V */
     /* V These three effect the "My account" drop-down text V */
@@ -108,9 +134,9 @@
     /* ^ changed the way the dropdown works, smaller and more compact to fit the theme of the delivery one ^ */
                       /* ^ (end) MY ACCOUNT SETTINGS ^ */
 
-                /* --------- S P A C I N G----------- */
+                /* --------- S P A C I N G ----------- */
 
-                      /* ^ DELIVERY SETTINGS ^ */
+                      /* V DELIVERY SETTINGS V */
     /* v These effect the text colour in the delivery dropdown menu v */
     .LocationDropDown  {
     color: #bdbdbd;
@@ -168,11 +194,11 @@
     /* ^ Hover effects for all text (they're lowkey buttons)  */
                       /* ^ (end) DELIVERY SETTINGS ^ */
 
-                /* --------- S P A C I N G----------- */
+                /* --------- S P A C I N G ----------- */
                         /* --- END
                                 MAIN 
                                  HEADER --- */
-                /* --------- S P A C I N G----------- */
+                /* --------- S P A C I N G ----------- */
 
 
 
