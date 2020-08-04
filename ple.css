@@ -106,7 +106,8 @@
     color: #bdbdbd;
     font-weight: bold;
     text-align: center;
-    padding: 10px;
+    padding: 8px;
+    width: 100%;
     }
 
     .loginMyPLELink:hover {
@@ -199,6 +200,91 @@
                                 MAIN 
                                  HEADER --- */
                 /* --------- S P A C I N G ----------- */
+
+
+
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-P-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-L-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-E-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+
+
+
+                /* --------- S P A C I N G ----------- */
+                        /* --- SUB HEADER --- */
+                /* --------- S P A C I N G ----------- */
+
+                /* V UNIVERSAL SUB-CATEGORIES SETTINGS V */
+/* v Main Dropdowns from the Subheader effects v */
+.siteCategoriesMain {
+    color: #bdbdbd;
+    background-color: var(--bg-colour-standard);
+    
+}
+/* ^ Main Dropdowns from the Subheader effects ^ */
+            /* V (end) UNIVERSAL SUB-CATEGORIES SETTINGS V */
+
+                /* --------- S P A C I N G ----------- */
+
+                 /* V "ALL CATEGORIES" TAB SETTINGS V */
+/* v "Pin/Shop all Brands" effects v */
+.siteCategoriesPin {
+    border: 1px solid #bdbdbd;
+}
+.siteCategoriesPin:hover {
+    background-color: #101010;
+    transition: .8s;
+}
+/* ^ "Pin/Shop all Brands" effects ^ */
+
+/* v Hover effect over all sub-heading categories on the sub-heading v */ 
+.siteNavigationContainerItem:hover {
+    background-color: #101010;
+    transition: .8s;
+}
+/* ^ Hover effect over all sub-heading categories on the sub-heading ^ */ 
+
+/* v Hover effect over (main) sub-heading categories/titles v */ 
+li.siteCategoriesCategoryL1:hover {
+    color: #bdbdbd;
+    background-color: #101010;
+}
+/* ^ Hover effect over (main) sub-heading categories/titles ^ */ 
+
+/* v Hover effect over sub-menu items (whilst hovering over a main-catergory) v */
+.siteCategoriesCategoryName:hover {
+    background-color: #101010;
+    transition: .8s;
+}
+/* ^ Hover effect over sub-menu items (whilst hovering over a main-catergory) ^ */
+
+/* v Sub-menu Titles, more spacing and colouring, bit neater v */
+.siteCategoriesSubMenuTitle {
+    color: #fff;          /*(#505050 works as well.)*/
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+/* ^ Sub-menu Titles, more spacing and colouring, bit neater ^ */
+              /* V (end) "ALL CATEGORIES TAB" SETTINGS V */
+
+                /* --------- S P A C I N G ----------- */
+
+                 /* V "DESKTOP COMPUTERS" SETTINGS V */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
