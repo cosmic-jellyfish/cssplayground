@@ -183,16 +183,12 @@
     }
     /* ^ Makes the "states" color & background stand out more ^ */
  
-    /* v Hover effects for all text (they're lowkey buttons) v */
-    .LocationStoreSelectorState:hover {
-    background-color: #101010;
-    transition: .8s;  
-    }
+    /* v Hover effects for all location text (they're lowkey buttons) v */
     .LocationStoreSelector:hover {
     background-color: #101010;
     transition: .8s;  
     }
-    /* ^ Hover effects for all text (they're lowkey buttons)  */
+    /* ^ Hover effects for all location text  (they're lowkey buttons)  */
                       /* ^ (end) DELIVERY SETTINGS ^ */
 
                 /* --------- S P A C I N G ----------- */
@@ -214,67 +210,124 @@
                 /* --------- S P A C I N G ----------- */
 
                 /* V UNIVERSAL SUB-CATEGORIES SETTINGS V */
-/* v Main Dropdowns from the Subheader effects v */
-.siteCategoriesMain {
+    /* v Main Dropdowns from the Subheader effects v */
+    .siteCategoriesMain {
     color: #bdbdbd;
     background-color: var(--bg-colour-standard);
-    
-}
-/* ^ Main Dropdowns from the Subheader effects ^ */
-            /* V (end) UNIVERSAL SUB-CATEGORIES SETTINGS V */
+    }
+
+    .siteNavigationContainerItem {
+    text-shadow: 1px 1px 0 #000;
+    }
+    /* ^ Main Dropdowns from the Subheader effects ^ */
+            /* ^ (end) UNIVERSAL SUB-CATEGORIES SETTINGS ^ */
 
                 /* --------- S P A C I N G ----------- */
 
                  /* V "ALL CATEGORIES" TAB SETTINGS V */
-/* v "Pin/Shop all Brands" effects v */
-.siteCategoriesPin {
+    /* v "Pin/Shop all Brands" effects v */
+    .siteCategoriesPin {
     border: 1px solid #bdbdbd;
-}
-.siteCategoriesPin:hover {
+    }
+    .siteCategoriesPin:hover {
     background-color: #101010;
     transition: .8s;
-}
-/* ^ "Pin/Shop all Brands" effects ^ */
+    }
+    /* ^ "Pin/Shop all Brands" effects ^ */
 
-/* v Hover effect over all sub-heading categories on the sub-heading v */ 
-.siteNavigationContainerItem:hover {
+    /* v Hover effect over all sub-heading categories on the sub-heading v */ 
+    .siteNavigationContainerItem:hover {
     background-color: #101010;
     transition: .8s;
-}
-/* ^ Hover effect over all sub-heading categories on the sub-heading ^ */ 
+    }
+    /* ^ Hover effect over all sub-heading categories on the sub-heading ^ */ 
 
-/* v Hover effect over (main) sub-heading categories/titles v */ 
-li.siteCategoriesCategoryL1:hover {
+    /* v Hover effect over (main) sub-heading categories/titles v */ 
+    li.siteCategoriesCategoryL1:hover {
     color: #bdbdbd;
     background-color: #101010;
-}
-/* ^ Hover effect over (main) sub-heading categories/titles ^ */ 
+    }
+    /* ^ Hover effect over (main) sub-heading categories/titles ^ */ 
 
-/* v Hover effect over sub-menu items (whilst hovering over a main-catergory) v */
-.siteCategoriesCategoryName:hover {
+    /* v Hover effect over sub-menu items (whilst hovering over a main-catergory) v */
+    .siteCategoriesCategoryName:hover {
     background-color: #101010;
     transition: .8s;
-}
-/* ^ Hover effect over sub-menu items (whilst hovering over a main-catergory) ^ */
+    }
+    /* ^ Hover effect over sub-menu items (whilst hovering over a main-catergory) ^ */
 
-/* v Sub-menu Titles, more spacing and colouring, bit neater v */
-.siteCategoriesSubMenuTitle {
+    /* v Sub-menu Titles, more spacing and colouring, bit neater v */
+    .siteCategoriesSubMenuTitle {
     color: #fff;          /*(#505050 works as well.)*/
     font-weight: bolder;
     padding-bottom: 15px;
-}
-/* ^ Sub-menu Titles, more spacing and colouring, bit neater ^ */
-              /* V (end) "ALL CATEGORIES TAB" SETTINGS V */
+    }
+    /* ^ Sub-menu Titles, more spacing and colouring, bit neater ^ */
+              /* ^ (end) "ALL CATEGORIES TAB" SETTINGS ^ */
 
                 /* --------- S P A C I N G ----------- */
 
                  /* V "DESKTOP COMPUTERS" SETTINGS V */
 
+    .CustomBuildDropTextLink {
+    color: #bdbdbd;
+    }
 
+    .CustomBuildDropTextLink:hover {
+    background-color: #101010;
+    }
 
+                 /* ^ (end) "DESKTOP COMPUTERS" SETTINGS ^ */
 
+                /* --------- S P A C I N G ----------- */
 
+                 /* V "NOTEBOOKS" SETTINGS V */
+    /* v These (2) effect the main-title links and such v */
+    .nbkItem {
+    color: #fff;
+    border-top: 1px solid #505050;
+    }
+    .nbkItem a:hover {
+    color: #bdbdbd;
+    transition: .10s;
+    }
+    /* ^ These (2) effect the main-title links and such ^ */
 
+    /* v These (3) three effect the sub-links prior to and on hover v */
+    .nbkItemChild {
+    color: #bdbdbd;
+    }
+    .nbkItemChild:hover:not(.nbkBrands) {
+    background-color: #101010;
+    transition: .8s;
+    }
+    .nbkItemChild a:hover {
+    color: #bdbdbd;
+    }
+    /* ^ These (3) three effect the sub-links prior to and on hover ^ */
+
+    /* v This adjusts the whole-dropdown background colour v */
+    .nbkAddon {
+    background-color: #212121;
+    }
+    /* ^ This adjusts the whole-dropdown background colour ^ */
+
+    /* v These adjust the opacity of the images prior and then hover, 
+         also adds a darker border to fit the theme                 v */
+    .nbkBrandImage {
+    border: 5px solid #191919;
+    opacity: .5;
+    }
+    img.nbkBrandImage:hover {  /*(img isn't needed but i like it, helps identify what i'm working on)*/
+    opacity: 1;
+    transition: .8s;
+    }
+    /* ^ These adjust the opacity of the images prior and then hover, 
+         also adds a darker border to fit the theme                 ^ */
+
+                 /* ^ (end) "NOTEBOOKS" SETTINGS ^ */
+
+                /* --------- S P A C I N G ----------- */
 
 
 
