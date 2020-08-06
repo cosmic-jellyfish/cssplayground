@@ -269,13 +269,58 @@
 
                  /* V "DESKTOP COMPUTERS" SETTINGS V */
 
+
+    /* v Creates a new layout for the dropdown v */
     .CustomBuildDropTextLink {
     color: #bdbdbd;
+    text-align: center;
+	min-width: 500px;   /*(Delete this to have the old layout)*/
+	padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #191919;
     }
+    /* ^ Creates a new layout for the dropdown ^ */
 
+    /* v Hover effect over links v */
     .CustomBuildDropTextLink:hover {
     background-color: #101010;
     }
+    /* ^ Hover effect over links ^ */
+
+    /* v Expands the clickable area of links within the hover block v */
+    .CustomBuildDropTextLink a {
+    display: block;
+    padding: 10px;
+    margin: -10px;
+    }
+    /* ^ Expands the clickable area of links within the hover block ^ */
+
+    /* v This effects behind the large banner of pc categories v */
+    .CustomBuildDropDownContainer {
+    background-color: #191919;
+    }
+    /* ^ This effects behind the large banner of pc categories ^ */
+
+    /* v Effects behind the main catergory titles v */
+    .CustomBuildDropTextLink.CustomBuildDropPromotionalSeries {
+    background-color: #212121;
+    text-align: center;
+    padding: 0 10px 0 10px;
+    }
+    /* ^ Effects behind the main catergory titles ^ */
+
+    /* v Removed a border and padding above the text "Total Custom Build" v */
+    .CustomBuildDropTotalCustom {
+    border-top: 0px solid;
+    padding: 0 0 0 0;
+    }
+    /* ^ Removed a border and padding above the text "Total Custom Build" ^ */
+
+    /* v This is at the very bottom, below "Intel X Series".. v */
+    .CustomBuildDropTextLinksArea {
+    background-color: #191919;
+    }
+    /* v This is at the very bottom, below "Intel X Series".. v */ 
 
                  /* ^ (end) "DESKTOP COMPUTERS" SETTINGS ^ */
 
