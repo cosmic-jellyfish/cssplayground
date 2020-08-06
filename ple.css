@@ -94,7 +94,7 @@
                 /* --------- S P A C I N G ----------- */
 
                       /* V MY ACCOUNT SETTINGS V */
-    /* V These three effect the "My account" drop-down text V */
+    /* v These three effect the "My account" drop-down text v */
     .loginHeader {
     color: #bdbdbd;
     text-align: center;
@@ -333,8 +333,8 @@
     border-top: 1px solid #505050;
     }
     .nbkItem a:hover {
-    color: #bdbdbd;
-    transition: .10s;
+    color: #505050;
+    transition: .4s;
     }
     /* ^ These (2) effect the main-title links and such ^ */
 
@@ -374,13 +374,52 @@
 
                 /* --------- S P A C I N G ----------- */
 
+                 /* V "COMPONENTS" "GAMING" "CASE & MODDING" "COOLING"
+                    "MONITOR" "PERIPHERALS" "CABLES & ACCESSORIES" &
+                    "NETWORK DEVICES" SETTINGS V */
 
+    /* v Background colouring behind the whole dropdown v */
+    .siteNavigationSubMenu {
+    background-color: #212121;
+    }
+    /* ^ Background colouring behind the whole dropdown ^ */
 
+    /* v Colour effect + spacing of titles/Categories of the dropdown v */
+    .siteNavigationCategory>a{
+    color: #fff;
+    padding-bottom: 15px;
+    }
+    .siteNavigationCategory>a:hover{
+    color: #505050;
+    transition: .4s;
+    }
+    /* ^ Colour effect + spacing of titles/Categories of the dropdown ^ */
 
+    /* v Colour of all sub-links v */
+    .siteNavigationCategoryChild {
+    color: #bdbdbd;
+    }
+    /* ^ Colour of all sub-links ^ */
 
+    /* v Makes all sub-links have an expanded area to activate/click v */
+    .siteNavigationCategoryChild a {
+    display: block;
+    }
+    /* ^ Makes all sub-links have an expanded area to activate/click ^ */
 
+    /* v Hover effect of all sub-links v */
+    .siteNavigationCategoryChild:hover {
+    background-color: #101010;
+    transition: .8s;
+    }
+    /* ^ Hover effect of all sub-links ^ */
 
+                 /* ^ (end) "COMPONENTS" "GAMING" "CASE & MODDING" "COOLING"
+                    "MONITOR" "PERIPHERALS" "CABLES & ACCESSORIES" &
+                    "NETWORK DEVICES" SETTINGS ^ */
 
+                /* --------- S P A C I N G ----------- */
+                      /* V "SPECIALS" SETTINGS V */
 
 
 
