@@ -419,11 +419,81 @@
                     "NETWORK DEVICES" SETTINGS ^ */
 
                 /* --------- S P A C I N G ----------- */
+
                       /* V "SPECIALS" SETTINGS V */
 
+    /* v Background colour behind "Specials" catergory v */
+    .c1877 {
+    background-color: #212121;
+    }
+    /* ^ Background colour behind "Specials" catergory ^ */
 
+    /* v Effects of "Bundle Deals" v */
+    .c2101 {
+    color: #bdbdbd;
+    }
+    .c2101:hover {
+    background-color: #101010;
+    transition: .8s;
+    }
+    .c2101 a {
+    display: block;
+    }
+    /* ^ Effects of "Bundle Deals" ^ */
 
+    /* v Effects "Specials" + "Promotions" (kek both the same link) v */
+    .c2370 {
+    color: #bdbdbd;
+    }
+    .c2370:hover {
+    background-color: #101010;
+    transition: .8s;
+    }
+    .c2370 a {
+    display: block;
+    }
+    /* ^ Effects "Specials" + "Promotions" (kek both the same link) ^ */
 
+    /* v Effects "Ex Demo Bargains" v */
+    .c2449 {
+    color: #bdbdbd;
+    }
+    .c2449:hover {
+    background-color: #101010;
+    transition: .8s;
+    }  
+    .c2449 a{
+    display: block;
+    }
+    /* ^ Effects "Ex Demo Bargains" ^ */
+
+    /* v Effects "Clearance" v */
+    .c2582 {
+    color: #bdbdbd;
+    }
+    .c2582:hover {
+    background-color: #101010;
+    transition: .8s;
+    }
+    .c2582 a {
+    display: block;
+    }
+    /* ^ Effects "Clearance" ^ */
+
+    /* v Effects "Latest Email Deals" v */
+    .c3106 {
+    color: #bdbdbd;
+    }
+    .c3106:hover {
+    background-color: #101010;
+    transition: .8s;
+    }
+    .c3106 a {
+    display: block;
+    }
+    /* ^ Effects "Latest Email Deals" ^ */
+
+                      /* ^ (end) "SPECIALS" SETTINGS ^ */
 
                        /* --- MAIN BODY --- */
 
