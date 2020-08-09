@@ -495,8 +495,26 @@
 
                       /* ^ (end) "SPECIALS" SETTINGS ^ */
 
-                       /* --- MAIN BODY --- */
+                /* --------- S P A C I N G ----------- */
+                        /* --- END
+                                SUB 
+                                 HEADER --- */
+                /* --------- S P A C I N G ----------- */
 
+
+
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-P-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-L-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-E-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+
+
+
+                /* --------- S P A C I N G ----------- */
+                        /* --- MAIN BODY --- */
+                /* --------- S P A C I N G ----------- */
+              /* --- V UNIVERSAL MAIN BODY CHANGES V --- */
+
+    /* v all have an effect, read the note next to it to understand. v */
     .themeLight {
     --bg-colour-standard: #212121;                  /* main content / body colours */
     --bg-colour-almostStandard: #f5f5f5;
@@ -518,3 +536,173 @@
     --fg-colour-stdButton-hover: #bdbdbd;           /* Currently this effects the COVID-19 status banner and the "My account" hover text of logout */
     --plered: #191919;                              /* header and overall accent colours */ /*(Thanks PLE for the heavy lifting ♡)*/
     }
+    /* ^ all have an effect, read the note next to it to understand. ^ */
+            /* --- ^ (end) UNIVERSAL MAIN BODY CHANGES ^ --- */
+
+                /* --------- S P A C I N G ----------- */
+
+                      /* V REVIEWS SETTINGS V */
+
+    /* v Effects the name of the Reviewer v */
+    .reviewName {
+    color: #fff;
+    font-weight: bold;
+    }
+    /* ^ Effects the name of the Reviewer ^ */
+
+    /* v Effects the text written in the Review v */
+    .reviewText {
+    color: #bdbdbd;
+    }
+    /* ^ Effects the text written in the Review ^ */
+
+    /* v Effects the date of the review v */
+    .reviewDate {
+    font-weight: bolder;
+    color: #505050;
+    }
+    /* ^ Effects the date of the review ^ */
+
+    /* v On Hover, Effects background of the review tile v */
+    .reviewTile:hover {
+    background-color: #101010;
+    transition: .8s;
+    }
+    /* ^ On Hover, Effects background of the review tile ^ */
+
+                      /* ^ (end) REVIEWS SETTINGS ^ */
+
+                /* --------- S P A C I N G ----------- */
+
+                      /* V BRAND CAROUSEL SETTINGS V */
+
+    /* v Effects behind the image, essentially a border almost between the brand images v */
+    .brandCarousel {
+    background-color: #101010;
+    }
+    /* ^ Effects behind the image, essentially a border almost between the brand images ^ */
+
+    /* v Effects the images default-state prior to hover v */
+    .brandCarouselTile {
+    opacity: .4;
+    }
+    /* ^ Effects the images default-state prior to hover ^ */
+
+    /* v On Hover, Effects the brands image, brining opacity back to normal v */
+    .brandCarouselTile:hover {
+    opacity: 1;
+    transition: .4s;
+    }
+    /* ^ On Hover, Effects the brands image, brining opacity back to normal ^ */
+
+    /* v On Hover + Prior, Effects on the {next} button that appears on Brand Carousel v */
+    .slick-next:before {
+    background-color: #bdbdbd;
+    }
+    .slick-next:hover:before {
+    color: #101010;
+    transition: .4s;
+    }
+    /* ^ On Hover + Prior, Effects on the {next} button that appears on Brand Carousel ^ */
+
+    /* v On Hover + Prior, Effects on the {previous} button that appears on Brand Carousel v */
+    .slick-prev:before {
+    background-color: #bdbdbd;
+    }
+    .slick-prev:hover:before {
+    color: #101010;
+    transition: .4s;
+    }
+    /* ^ On Hover + Prior, Effects on the {previous} button that appears on Brand Carousel ^ */
+
+                      /* ^ (end) BRAND CAROUSEL SETTINGS ^ */
+
+                /* --------- S P A C I N G ----------- */
+                        /* --- END
+                                 MAIN 
+                                   BODY --- */
+                /* --------- S P A C I N G ----------- */
+
+
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-P-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-L-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-E-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+
+
+                /* --------- S P A C I N G ----------- */
+                          /* --- FOOTER --- */
+                /* --------- S P A C I N G ----------- */
+
+                      /* V FOOTER SETTINGS V */
+
+                      /* V FOOTER-TEXT SETTINGS V */
+    /* v Effects the whole footers background, matching with the dark theme v */
+    .footerContainer {
+    background-color: #191919;
+    }
+    /* ^ Effects the whole footers background, matching with the dark theme ^ */
+
+    /* v Increases max width, to make it a wee bit slightly larger v */
+    .footerInnerContainer {
+    max-width: 1750px;    /* 1450px is default */
+    }
+    /* ^ Increases max width, to make it a wee bit slightly larger ^ */
+
+    /* v On Hover + Prior, Effects of the text within the footer v */
+    .c2925 {
+    color: #bdbdbd;
+    }
+    .c2925:hover {
+    background-color: #101010;
+    transition: .8s;
+    }
+    /* ^ On Hover + Prior, Effects of the text within the footer ^ */
+
+                      /* ^ (end) FOOTER-TEXT SETTINGS ^ */
+
+                /* --------- S P A C I N G ----------- */
+
+               /* V NEWSLETTER/EMAIL-SIGN UP SETTINGS V */
+
+    /* v On Hover + Prior, Effects the "sign up" button v */
+    .newsletterSignupButtonText {
+    background-color: #505050;
+    }
+    .newsletterSignupButtonText:hover {
+    background-color: #212121;
+    transition: .4s;
+    }
+    /* ^ On Hover + Prior, Effects the "sign up" button ^ */
+
+    /* v Effects the border around the email-signup, around "sign up" I made it
+         disappear, whilst having a borer around the input area v */
+    .newsletterInputWrapper {
+    border: 1px solid #101010;
+    }
+    .newsletterSignupButton {
+    border: 0px solid #191919;
+    }
+    /* ^ Effects the border around the email-signup, around "sign up" I made it
+         disappear, whilst having a borer around the input area ^ */
+
+    /* v Centers the "Stay up to Date" text with the input area v */
+    .footerStayUpToDate {
+    text-align: center;
+    }
+    /* ^ Centers the "Stay up to Date" text with the input area ^ */
+
+               /* ^ (end) NEWSLETTER/EMAIL-SIGN UP SETTINGS ^ */
+
+                /* --------- S P A C I N G ----------- */
+
+
+
+/* TO-DO 
+        ** PLEASE NOTE, all "to-do's" below are for the main-body / home page of PLE, product-page CSS is coming soon **
+> Finish off Footer settings, (follow us on socials), (store locators), (all rights reservered) stuff. (Hover effects on Social Media Pics), text-align "all rights reserved" things, etc etc.
+>> Fix / make "Notebook settings" drop-down texts (a) act as block.
+>>> attach css to "NEW Products" text on main-body.
+>>>> Look into .homepageBannerSlides3rdPartyContainer (current promotions) + background-image edit.
+>>>>> Look into Main-body product images, less white-ness {if} possible.
+
+*/
