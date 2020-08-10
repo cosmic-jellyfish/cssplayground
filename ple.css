@@ -691,18 +691,177 @@
     }
     /* ^ Centers the "Stay up to Date" text with the input area ^ */
 
-               /* ^ (end) NEWSLETTER/EMAIL-SIGN UP SETTINGS ^ */
+    /* v Effects the "View Latest" hyperlink v */
+    .c6356 {
+    color: #bdbdbd;
+    }
+    /* ^ Effects the "View Latest" hyperlink ^ */
+
+            /* ^ (end) NEWSLETTER/EMAIL-SIGN UP SETTINGS ^ */
 
                 /* --------- S P A C I N G ----------- */
+
+                /* V "FOLLOW US ON SOCIALS" SETTINGS V */
+
+    /* v Changes the Social Logo's Opacity On Hover v */
+    .footerSocial:hover {
+    opacity: .4;
+    transition: .4s;
+    }
+    /* ^ Changes the Social Logo's Opacity On Hover ^ */
+
+    /* v Changes the YouTube Logo to fit the dark-theme v */    
+    .c5600 img {
+    content: url("https://raw.githubusercontent.com/peepoboi/cssplayground/master/ple-imgs/ple-youtube.png");
+    }
+    /* ^ Changes the YouTube Logo to fit the dark-theme ^ */
+
+    /* v Changes the Twitch Logo to fit the dark-theme v */
+    .c5731 img {
+    content: url("https://raw.githubusercontent.com/peepoboi/cssplayground/master/ple-imgs/ple-twitch.png");
+    }
+    /* ^ Changes the Twitch Logo to fit the dark-theme ^ */
+
+    /* v Changes the Facebook Logo to fit the dark-theme v */
+    .c5794 img {
+    content: url("https://raw.githubusercontent.com/peepoboi/cssplayground/master/ple-imgs/ple-facebook.png");
+    }
+    /* ^ Changes the Facebook Logo to fit the dark-theme ^ */
+
+    /* v Changes the Twitter Logo to fit the dark-theme v */
+    .c5857 img {
+    content: url("https://raw.githubusercontent.com/peepoboi/cssplayground/master/ple-imgs/ple-twitter.png");
+    }
+    /* ^ Changes the Twitter Logo to fit the dark-theme ^ */
+
+    /* v Changes the Instagram Logo to fit the dark-theme v */
+    .c5920 img {
+    content: url("https://raw.githubusercontent.com/peepoboi/cssplayground/master/ple-imgs/ple-instagram.png");
+    }
+    /* ^ Changes the Instagram Logo to fit the dark-theme ^ */
+
+    /* v Instagram Pictures / Videos (On Hover + Prior) Effects v */
+    .igTileInnerInner a img, .igTileInnerInner a video {
+    opacity: .4;
+    }
+
+    .igTileInnerInner a img:hover, .igTileInnerInner a video:hover {
+    opacity: 1;
+    transition: .4s;
+    }
+    /* ^ Instagram Pictures / Videos (On Hover + Prior) Effects ^ */
+
+               /* ^ (end) "FOLLOW US ON SOCIALS" SETTINGS ^ */
+
+                /* --------- S P A C I N G ----------- */
+
+                   /* V STORE LOCATIONS SETTINGS V */
+
+    /* v Effects the Store Name + Telephone v */
+    .c8871 {
+    color: #bdbdbd;
+    font-weight: bold;
+    
+    }
+    .c9078 {
+    color: #bdbdbd;
+    font-weight: lighter;
+    }
+    /* ^ Effects the Store Name + Telephone ^ */
+
+    /* v On Hover, Effects the Store Name + Telephone v */
+    .c8871:hover {
+    background-color: #101010;
+    transition: .8s;
+    }
+    .c9078:hover {
+    background-color: #101010;
+    transition: .8s;
+    }
+    /* ^ On Hover, Effects the Store Name + Telephone ^ */
+
+    /* v Effects the text of "Directions" v */
+    .footerDirectionsCell {
+    color: #505050;
+    }
+    /* ^ Effects the text of "Directions" ^ */
+
+    /* v On Hover, Effects the text of "Directions" v */
+    .footerDirectionsCell:hover {
+    color: #bdbdbd;
+    background-color: #101010;
+    transition: .8s;
+    }
+    /* ^ On Hover, Effects the text of "Directions" ^ */
+    
+    /* v Makes all store locations on the same line v */
+    .xcell2 {
+    display: contents;
+    }
+    /* ^ Makes all store locations on the same line ^ */
+
+    /* v Red drop-pin arrow (keeps it in the same position from re-positioning the store locations) v */
+    .c12170 {
+    height: inherit;
+    }
+    /* ^ Red drop-pin arrow (keeps it in the same position from re-positioning the store locations) ^ */
+
+                   /* ^ (end) STORE LOCATIONS SETTINGS ^ */
+
+                /* --------- S P A C I N G ----------- */
+
+                   /* V "ALL RIGHTS RESERVED" SETTINGS V */
+
+    /* v Effects the block of all-rights-reserved text at the bottom v */
+    .c4688 {
+    text-align: center;
+    font-size: 12px;
+    color: #505050;
+    }
+    /* ^ Effects the block of all-rights-reserved text at the bottom ^ */
+
+    /* v My Watermark v */
+    .c4688::after {
+    content: "Designed by Cake \a (Cake#0585 - Discord)";
+    font-weight: bold;
+    white-space: pre-wrap; 
+    font-size: 10.5px;
+    }
+    /* ^ My Watermark ^ */
+
+                   /* V (end) "ALL RIGHTS RESERVED" SETTINGS V */
+
+                /* --------- S P A C I N G ----------- */
+                        /* --- END
+
+                                  FOOTER --- */
+                /* --------- S P A C I N G ----------- */
+
+
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-P-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-L-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-E-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
 
 
 
 /* TO-DO 
         ** PLEASE NOTE, all "to-do's" below are for the main-body / home page of PLE, product-page CSS is coming soon **
-> Finish off Footer settings, (follow us on socials), (store locators), (all rights reservered) stuff. (Hover effects on Social Media Pics), text-align "all rights reserved" things, etc etc.
->> Fix / make "Notebook settings" drop-down texts (a) act as block.
->>> attach css to "NEW Products" text on main-body.
->>>> Look into .homepageBannerSlides3rdPartyContainer (current promotions) + background-image edit.
->>>>> Look into Main-body product images, less white-ness {if} possible.
+> Fix / make "Notebook settings" drop-down texts (a) act as block.
+>> attach css to "NEW Products" text on main-body.
+>>> Look into .homepageBannerSlides3rdPartyContainer (current promotions) + background-image edit.
+>>>> Look into Main-body product images, less white-ness {if} possible.
 
 */
+
+                                        /* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-_-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+
+/*
+> Again, thanks for using the css, you're more than welcome to remove my watermark css at the very bottom of the code (CRTL + F ".c4688::after") I don't mind either way.
+>> If you find any website-breaking css, un-readable text or have an idea to fix something / improve, don't hesitate to contact me! (Discord is provided at the top of the css)
+>>> I want to thank PLE again for the heavy lifting and overall layout of the website, they made it pretty user-friendly with their .divs and what not.
+>>>> I'm more than happy for anyone to take what I've done and further improve or modify to their own liking, attempted to make this all extremely user-friendly, 
+     though there is some confusing parts.
+
+                                                                            Much Love
+                                                                              ᴄᴀᴋᴇ
+ */
