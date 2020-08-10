@@ -27,8 +27,7 @@
     [type=search]:focus {
     width: 450px;
     }
-                    /* ^ (end) Search Box settings ^ */
-
+                  /* ^ (end) Search Box settings ^ */
                 /* --------- S P A C I N G ----------- */
 
                         /* V CART SETTINGS V */
@@ -89,8 +88,8 @@
     margin-bottom: 10px;
     }
     /* ^ These (3) three, make changes to the "Cart" drop-down similar to the "My account" drop down. ^ */
-                        /* ^ (end) CART SETTINGS ^ */
 
+                      /* ^ (end) CART SETTINGS ^ */
                 /* --------- S P A C I N G ----------- */
 
                       /* V MY ACCOUNT SETTINGS V */
@@ -133,8 +132,8 @@
     border: 1px solid #505050;
     }
     /* ^ changed the way the dropdown works, smaller and more compact to fit the theme of the delivery one ^ */
-                      /* ^ (end) MY ACCOUNT SETTINGS ^ */
 
+                   /* ^ (end) MY ACCOUNT SETTINGS ^ */
                 /* --------- S P A C I N G ----------- */
 
                       /* V DELIVERY SETTINGS V */
@@ -220,8 +219,14 @@
     text-shadow: 1px 1px 0 #000;
     }
     /* ^ Main Dropdowns from the Subheader effects ^ */
-            /* ^ (end) UNIVERSAL SUB-CATEGORIES SETTINGS ^ */
 
+    /* v Removes a slight shadow below the sub-header v */
+    .siteTop {
+    box-shadow: 0 0 0 0;
+    }
+    /* ^ Removes a slight shadow below the sub-header ^ */
+
+             /* ^ (end) UNIVERSAL SUB-CATEGORIES SETTINGS ^ */
                 /* --------- S P A C I N G ----------- */
 
                  /* V "ALL CATEGORIES" TAB SETTINGS V */
@@ -263,13 +268,11 @@
     padding-bottom: 15px;
     }
     /* ^ Sub-menu Titles, more spacing and colouring, bit neater ^ */
-              /* ^ (end) "ALL CATEGORIES TAB" SETTINGS ^ */
 
+              /* ^ (end) "ALL CATEGORIES TAB" SETTINGS ^ */
                 /* --------- S P A C I N G ----------- */
 
                  /* V "DESKTOP COMPUTERS" SETTINGS V */
-
-
     /* v Creates a new layout for the dropdown v */
     .CustomBuildDropTextLink {
     color: #bdbdbd;
@@ -322,11 +325,10 @@
     }
     /* v This is at the very bottom, below "Intel X Series".. v */ 
 
-                 /* ^ (end) "DESKTOP COMPUTERS" SETTINGS ^ */
-
+               /* ^ (end) "DESKTOP COMPUTERS" SETTINGS ^ */
                 /* --------- S P A C I N G ----------- */
 
-                 /* V "NOTEBOOKS" SETTINGS V */
+                    /* V "NOTEBOOKS" SETTINGS V */
     /* v These (2) effect the main-title links and such v */
     .nbkItem {
     color: #fff;
@@ -370,14 +372,12 @@
     /* ^ These adjust the opacity of the images prior and then hover, 
          also adds a darker border to fit the theme                 ^ */
 
-                 /* ^ (end) "NOTEBOOKS" SETTINGS ^ */
-
+                   /* ^ (end) "NOTEBOOKS" SETTINGS ^ */
                 /* --------- S P A C I N G ----------- */
 
                  /* V "COMPONENTS" "GAMING" "CASE & MODDING" "COOLING"
                     "MONITOR" "PERIPHERALS" "CABLES & ACCESSORIES" &
                     "NETWORK DEVICES" SETTINGS V */
-
     /* v Background colouring behind the whole dropdown v */
     .siteNavigationSubMenu {
     background-color: #212121;
@@ -417,11 +417,9 @@
                  /* ^ (end) "COMPONENTS" "GAMING" "CASE & MODDING" "COOLING"
                     "MONITOR" "PERIPHERALS" "CABLES & ACCESSORIES" &
                     "NETWORK DEVICES" SETTINGS ^ */
-
                 /* --------- S P A C I N G ----------- */
 
                       /* V "SPECIALS" SETTINGS V */
-
     /* v Background colour behind "Specials" catergory v */
     .c1877 {
     background-color: #212121;
@@ -492,8 +490,7 @@
     display: block;
     }
     /* ^ Effects "Latest Email Deals" ^ */
-
-                      /* ^ (end) "SPECIALS" SETTINGS ^ */
+                   /* ^ (end) "SPECIALS" SETTINGS ^ */
 
                 /* --------- S P A C I N G ----------- */
                         /* --- END
@@ -509,11 +506,12 @@
 
 
 
+
                 /* --------- S P A C I N G ----------- */
                         /* --- MAIN BODY --- */
                 /* --------- S P A C I N G ----------- */
-              /* --- V UNIVERSAL MAIN BODY CHANGES V --- */
 
+              /* --- V UNIVERSAL MAIN BODY CHANGES V --- */
     /* v all have an effect, read the note next to it to understand. v */
     .themeLight {
     --bg-colour-standard: #212121;                  /* main content / body colours */
@@ -538,11 +536,9 @@
     }
     /* ^ all have an effect, read the note next to it to understand. ^ */
             /* --- ^ (end) UNIVERSAL MAIN BODY CHANGES ^ --- */
-
                 /* --------- S P A C I N G ----------- */
 
                       /* V REVIEWS SETTINGS V */
-
     /* v Effects the name of the Reviewer v */
     .reviewName {
     color: #fff;
@@ -570,12 +566,10 @@
     }
     /* ^ On Hover, Effects background of the review tile ^ */
 
-                      /* ^ (end) REVIEWS SETTINGS ^ */
-
+                     /* ^ (end) REVIEWS SETTINGS ^ */
                 /* --------- S P A C I N G ----------- */
 
-                      /* V BRAND CAROUSEL SETTINGS V */
-
+                    /* V BRAND CAROUSEL SETTINGS V */
     /* v Effects behind the image, essentially a border almost between the brand images v */
     .brandCarousel {
     background-color: #101010;
@@ -615,8 +609,78 @@
     }
     /* ^ On Hover + Prior, Effects on the {previous} button that appears on Brand Carousel ^ */
 
-                      /* ^ (end) BRAND CAROUSEL SETTINGS ^ */
+                 /* ^ (end) BRAND CAROUSEL SETTINGS ^ */
+                /* --------- S P A C I N G ----------- */
 
+                  /* V PROMOTIONS CAROUSEL SETTINGS V */
+    /* v Swaps out the red banner and adds one that fits the dark-theme, easy to disable and have the old one back or completel disable v */
+    .homepageBannerSlides3rdPartyContainer {
+    background-image: url(https://raw.githubusercontent.com/peepoboi/cssplayground/master/ple-imgs/ple-promotionals.png);
+    /* background-image: none; */   /*Enable this if you don't want the background to the promotional Carousel*/
+    }
+    /* ^ Swaps out the red banner and adds one that fits the dark-theme, easy to disable and have the old one back or completel disable ^ */
+
+               /* ^ (end) PROMOTIONS CAROUSEL SETTINGS ^ */
+                /* --------- S P A C I N G ----------- */
+
+                  /* V "NEW PRODUCTS" TEXT-SETTINGS V */
+    /* v Effects "New Products" text v */
+    .homepageNewProductsTitle {
+    color: #bdbdbd;
+    text-align: center;
+    font-size: 20px;
+    }
+    .homepageNewProductsNewBit {
+    color: #505050;
+    font-weight: bolder;
+    }
+    /* ^ Effects "New Products" text ^ */
+               /* ^ (end) "NEW PRODUCTS" TEXT-SETTINGS ^ */
+                /* --------- S P A C I N G ----------- */
+
+                 /* V HOMEPAGE NEW-PRODUCTS SETTINGS V */
+    /* v On Hover + Prior, Effects the New Products images etc v */
+    .itemGridTileWrapper {
+    border: 1px solid #505050;
+    }
+
+    .itemGridTileWrapper:hover {
+    background-color: #101010;
+    transition: .8s;
+    }
+    /* ^ On Hover + Prior, Effects the New Products images etc ^ */
+
+    /* v Effects the "Add To Cart" text that appears when hovering over a product v */
+    .itemGridTileAddToCart {
+    background-color: #212121;
+    }
+    .itemGridTileAddToCart:hover {
+    background-color: #101010;
+    transition: .4s;
+    }
+    /* ^ Effects the "Add To Cart" text that appears when hovering over a product ^ */
+
+    /* v Effects the "view all" button under the next products / brands v */ 
+    .brandCarouselAllBrands:hover {
+    background-color: #101010;
+    transition: .8s;
+    }
+    /* ^ Effects the "view all" button under the next products / brands ^ */
+
+    /* v Effects the spotlight items "add to cart" button only v */
+    .homepageSpotlight .itemGridTileWrapper .itemGridTileAddToCart:hover {
+    background-color: #191919;
+    transition: .4s;
+    }
+    /* ^ Effects the spotlight items "add to cart" button only ^ */
+
+    /* v Adds the same spacing between products as shown in the spotlight products v */
+    .homepageNewProducts .itemGridTileWrapper {
+    margin: 5px;
+    }
+    /* ^ Adds the same spacing between products as shown in the spotlight products ^ */
+
+              /* ^ (end) HOMEPAGE NEW-PRODUCTS SETTINGS ^ */
                 /* --------- S P A C I N G ----------- */
                         /* --- END
                                  MAIN 
@@ -632,8 +696,6 @@
                 /* --------- S P A C I N G ----------- */
                           /* --- FOOTER --- */
                 /* --------- S P A C I N G ----------- */
-
-                      /* V FOOTER SETTINGS V */
 
                       /* V FOOTER-TEXT SETTINGS V */
     /* v Effects the whole footers background, matching with the dark theme v */
@@ -658,12 +720,10 @@
     }
     /* ^ On Hover + Prior, Effects of the text within the footer ^ */
 
-                      /* ^ (end) FOOTER-TEXT SETTINGS ^ */
-
+                   /* ^ (end) FOOTER-TEXT SETTINGS ^ */
                 /* --------- S P A C I N G ----------- */
 
                /* V NEWSLETTER/EMAIL-SIGN UP SETTINGS V */
-
     /* v On Hover + Prior, Effects the "sign up" button v */
     .newsletterSignupButtonText {
     background-color: #505050;
@@ -698,11 +758,9 @@
     /* ^ Effects the "View Latest" hyperlink ^ */
 
             /* ^ (end) NEWSLETTER/EMAIL-SIGN UP SETTINGS ^ */
-
                 /* --------- S P A C I N G ----------- */
 
                 /* V "FOLLOW US ON SOCIALS" SETTINGS V */
-
     /* v Changes the Social Logo's Opacity On Hover v */
     .footerSocial:hover {
     opacity: .4;
@@ -751,12 +809,10 @@
     }
     /* ^ Instagram Pictures / Videos (On Hover + Prior) Effects ^ */
 
-               /* ^ (end) "FOLLOW US ON SOCIALS" SETTINGS ^ */
-
+             /* ^ (end) "FOLLOW US ON SOCIALS" SETTINGS ^ */
                 /* --------- S P A C I N G ----------- */
 
                    /* V STORE LOCATIONS SETTINGS V */
-
     /* v Effects the Store Name + Telephone v */
     .c8871 {
     color: #bdbdbd;
@@ -806,19 +862,25 @@
     }
     /* ^ Red drop-pin arrow (keeps it in the same position from re-positioning the store locations) ^ */
 
-                   /* ^ (end) STORE LOCATIONS SETTINGS ^ */
-
+                 /* ^ (end) STORE LOCATIONS SETTINGS ^ */
                 /* --------- S P A C I N G ----------- */
 
-                   /* V "ALL RIGHTS RESERVED" SETTINGS V */
-
+                 /* V "ALL RIGHTS RESERVED" SETTINGS V */
     /* v Effects the block of all-rights-reserved text at the bottom v */
     .c4688 {
     text-align: center;
     font-size: 12px;
     color: #505050;
+    display: block;
     }
     /* ^ Effects the block of all-rights-reserved text at the bottom ^ */
+
+    /* v Makes the links stand out more, if you're so interested in reading T.O.S and things v */
+    .c4991 a {
+    color: #bdbdbd;
+    font-weight: bold;
+    }
+    /* ^ Makes the links stand out more, if you're so interested in reading T.O.S and things ^ */
 
     /* v My Watermark v */
     .c4688::after {
@@ -828,8 +890,7 @@
     font-size: 10.5px;
     }
     /* ^ My Watermark ^ */
-
-                   /* V (end) "ALL RIGHTS RESERVED" SETTINGS V */
+               /* ^ (end) "ALL RIGHTS RESERVED" SETTINGS ^ */
 
                 /* --------- S P A C I N G ----------- */
                         /* --- END
@@ -844,12 +905,55 @@
 
 
 
+                /* --------- S P A C I N G ----------- */
+                        /* --- MISC SETTINGS --- */
+                /* --------- S P A C I N G ----------- */
+
+                     /* V SCROLLBAR SETTINGS V */
+
+    /* v width v */
+    ::-webkit-scrollbar {
+     width: 14px;
+    }
+    /* ^ width ^ */
+
+    /* v track v */
+    ::-webkit-scrollbar-track {
+    background: #101010;
+    }
+    /* ^ track ^ */
+
+    /* v handle v */
+    ::-webkit-scrollbar-thumb {
+    background: #191919;
+    }
+    /* ^ handle ^ */
+
+    /* v handle on hover v */
+    ::-webkit-scrollbar-thumb:hover {
+    background: #bdbdbd;
+    }
+    /* ^ handle on hover ^ */
+
+               /* ^ (end) SCROLLBAR SETTINGS ^ */
+
+                /* --------- S P A C I N G ----------- */
+                        /* --- END
+                                MISC
+                                 SETTINGS --- */
+                /* --------- S P A C I N G ----------- */
+
+
+
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-P-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-L-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-E-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+
+
+
 /* TO-DO 
         ** PLEASE NOTE, all "to-do's" below are for the main-body / home page of PLE, product-page CSS is coming soon **
 > Fix / make "Notebook settings" drop-down texts (a) act as block.
->> attach css to "NEW Products" text on main-body.
->>> Look into .homepageBannerSlides3rdPartyContainer (current promotions) + background-image edit.
->>>> Look into Main-body product images, less white-ness {if} possible.
 
 */
 
@@ -858,10 +962,9 @@
 /*
 > Again, thanks for using the css, you're more than welcome to remove my watermark css at the very bottom of the code (CRTL + F ".c4688::after") I don't mind either way.
 >> If you find any website-breaking css, un-readable text or have an idea to fix something / improve, don't hesitate to contact me! (Discord is provided at the top of the css)
->>> I want to thank PLE again for the heavy lifting and overall layout of the website, they made it pretty user-friendly with their .divs and what not.
->>>> I'm more than happy for anyone to take what I've done and further improve or modify to their own liking, attempted to make this all extremely user-friendly, 
-     though there is some confusing parts.
+>>> I want to thank PLE again for the heavy lifting and overall layout of the website, they made it pretty user-friendly with their .divs and what not (I've seen way worse in websites)
+>>>> I'm more than happy for anyone to take what I've done and further improve or modify to their own liking, attempted to make this all extremely user-friendly, though there is some confusing parts.
 
                                                                             Much Love
                                                                               ᴄᴀᴋᴇ
- */
+                                                                                                                                                                                                    */
