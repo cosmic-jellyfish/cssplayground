@@ -340,9 +340,12 @@
     }
     /* ^ These (2) effect the main-title links and such ^ */
 
-    /* v These (3) three effect the sub-links prior to and on hover v */
+    /* v These (4) four effect the sub-links prior to and on hover v */
     .nbkItemChild {
     color: #bdbdbd;
+    }
+    .nbkItemChild a {
+    display: block;
     }
     .nbkItemChild:hover:not(.nbkBrands) {
     background-color: #101010;
@@ -351,13 +354,20 @@
     .nbkItemChild a:hover {
     color: #bdbdbd;
     }
-    /* ^ These (3) three effect the sub-links prior to and on hover ^ */
+    /* ^ These (4) four effect the sub-links prior to and on hover ^ */
 
-    /* v This adjusts the whole-dropdown background colour v */
+    /* v This adjusts the whole-dropdown background colour + makes it so it doesn't expand due to expanding clickable area v */
     .nbkAddon {
     background-color: #212121;
+    max-height: 293px;
     }
-    /* ^ This adjusts the whole-dropdown background colour ^ */
+    /* ^ This adjusts the whole-dropdown background colour + makes it so it doesn't expand due to expanding clickable area ^ */
+
+    /* v Makes the Brand images inline with eachother v */
+    .nbkBrands {
+    display: flex;
+    }
+    /* ^ Makes the Brand images inline with eachother ^ */
 
     /* v These adjust the opacity of the images prior and then hover, 
          also adds a darker border to fit the theme                 v */
@@ -909,7 +919,7 @@
                         /* --- MISC SETTINGS --- */
                 /* --------- S P A C I N G ----------- */
 
-                     /* V SCROLLBAR SETTINGS V */
+                      /* V SCROLLBAR SETTINGS V */
 
     /* v width v */
     ::-webkit-scrollbar {
@@ -935,7 +945,7 @@
     }
     /* ^ handle on hover ^ */
 
-               /* ^ (end) SCROLLBAR SETTINGS ^ */
+                   /* ^ (end) SCROLLBAR SETTINGS ^ */
 
                 /* --------- S P A C I N G ----------- */
                         /* --- END
@@ -950,12 +960,6 @@
 /* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-E-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
 
 
-
-/* TO-DO 
-        ** PLEASE NOTE, all "to-do's" below are for the main-body / home page of PLE, product-page CSS is coming soon **
-> Fix / make "Notebook settings" drop-down texts (a) act as block.
-
-*/
 
                                         /* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-_-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
 
