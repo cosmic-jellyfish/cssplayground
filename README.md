@@ -7,7 +7,7 @@
 * [PLE Before/After](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=d6e1b060-dab5-11ea-bf88-a15b6c7adf9a)
 
 <p align="center">
-  <img src="https://i.imgur.com/ltnOe5j.png">
+  <img src="https://i.imgur.com/ZXVPFHN.png">
 </p>
 
 I use the following links below (appropriate to each browser) to style the websites with the code uploaded here. All are **official** links.
@@ -16,7 +16,7 @@ I use the following links below (appropriate to each browser) to style the websi
 * [Stylus (Opera)](https://addons.opera.com/en/extensions/details/stylus/)
 
 <p align="center">
-  <img src="https://i.imgur.com/ltnOe5j.png">
+  <img src="https://i.imgur.com/ZXVPFHN.png">
 </p>
 
 
