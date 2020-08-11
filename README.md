@@ -38,3 +38,19 @@ I **attempt** to make all ***css code*** user-friendly. So you're capable of edi
 * New hover effects. 
 * Complete Overhaul of the site to fit a dark-theme.
 * **[PLE STYLE HERE](https://github.com/peepoboi/cssplayground/blob/master/ple.css)**
+
+<p align="center">
+  <img src="https://i.imgur.com/ZXVPFHN.png">
+</p>
+
+
+<p align="center">OzBargain</p>
+
+![PLE](https://i.imgur.com/RsUWswY.jpg "OzBargain_Dark_Mode_Activated.")
+
+* New layout, utilising the whole space.
+* New Scrollbar.
+* New standing-out coupon codes.
+* New hover effects. 
+* Complete Overhaul of the site to fit a dark-theme.
+* **[OzBargain STYLE HERE](https://github.com/peepoboi/cssplayground/blob/master/OZBargain.css)**
