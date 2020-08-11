@@ -27,9 +27,7 @@ I **attempt** to make all ***css code*** user-friendly. So you're capable of edi
 ##### (open them in a new tab to experience full-quality)
 ###### (please note: The feature list is a not a full-list.)
 
-<p align="center">
-  <img src="https://i.imgur.com/JEXitEO.jpg">
-</p>
+![PLE](https://i.imgur.com/JEXitEO.jpg "PLE_Dark_Mode_Activated.")
 
 * New Search / animated expand.
 * New Drop downs layouts.
@@ -37,4 +35,3 @@ I **attempt** to make all ***css code*** user-friendly. So you're capable of edi
 * New Images over the exisiting to fit with the *new* theme.
 * New hover effects. 
 * Complete Overhaul of the site to fit a dark-theme.
-*
