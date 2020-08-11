@@ -115,6 +115,46 @@
     }
     /* ^ These three effect the "My account" drop-down text ^ */
 
+    /* v Effects the login(email) and password box v */
+    .usernameBox  {
+    background-color: #101010;
+    border: 1px solid #191919;
+    color: #bdbdbd;
+    outline: none;
+    }
+    .passwordBox {
+    background-color: #101010;
+    border: 1px solid #191919;
+    color: #bdbdbd;
+    outline: none;
+    }
+    /* ^ Effects the login(email) and password box ^ */
+
+    /* v Effects the "Dont have an account" text v */
+    .noAccountNotice {
+    font-size: 12px;
+    color: #bdbdbd;
+    }
+    /* ^ Effects the "Dont have an account" text ^ */
+
+    /* v Effects the error-login text when entering incorrect details v */
+    .loginErrorText {
+    font-weight: 800;
+    color: #ff0000b0;
+    }
+    /* ^ Effects the error-login text when entering incorrect details ^ */
+
+    /* v Effects the "forgot password" text + hover v */
+    .forgotPasswordLink {
+    color: #bdbdbd;
+    font-size: 12px;
+    font-weight: 600;
+    }
+    .forgotPasswordLink:hover {
+    background-color: #101010;
+    }
+    /* ^ Effects the "forgot password" text + hover ^ */
+
     /* v makes the area effected by the background-hover clickable with the link v */
     .loginMyPLELink a {
     display: block;
