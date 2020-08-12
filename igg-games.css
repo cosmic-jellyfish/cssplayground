@@ -1,10 +1,10 @@
 
-                /*
-                  * DESIGNED BY Cake#0585. (Discord if any problems)
-                   * THANKS FOR USING.
-                    * LET YOUR EYES THANK YOU.
-                     * EDIT TO YOUR PLEASING. TRIED TO MAKE IT AS USER-FRIENDLY AS POSSIBLE.
-                      */
+    /*
+      * DESIGNED BY Cake#0585.
+       * CURRENTLY A WORK-IN-PROGRESS.
+        * TAKE A SNEAK PEAK UNDER THE HOOD OF WHAT I TICKLE.
+         * EDIT TO YOUR PLEASING. TRIED TO MAKE IT AS USER-FRIENDLY AS POSSIBLE.
+          */
 
                 /* --------- S P A C I N G ----------- */
                      /* --- GLOBAL SETTINGS --- */
@@ -15,6 +15,12 @@
     max-width: 100%;
     }
     /* ^ uses the whole space ^ */
+
+    /* v Changes the main-page background color v */
+    .uk-section-default {
+    background-color: #191919;
+    }
+    /* ^ Changes the main-page background color ^ */
 
                 /* --------- S P A C I N G ----------- */
                         /* --- END
@@ -38,17 +44,12 @@
     /* ^ Background color ^ */
 
     /* v Enables a small animation play-over of text on the header v */
-    .uk-subnav>*>a:focus, .uk-subnav>*>a:hover {
-    color: red;
-    text-shadow: 0 0 0;
+    .uk-subnav>*>:first-child:hover {
+    text-shadow: none;
     transform: scale(1.1);
     transition: .4s ease-in-out;
     }
-
-    .uk-subnav.uk-subnav>*>:first-child a:hover {
-    color: red;
-    }
-/* ^ Enables a small animation play-over of text on the header ^ */
+    /* ^ Enables a small animation play-over of text on the header ^ */
 
     .uk-subnav>*>:first-child {
     letter-spacing: normal;
@@ -62,7 +63,6 @@
                 /* --------- S P A C I N G ----------- */
 
 /* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-❤-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
-
 
                 /* --------- S P A C I N G ----------- */
                         /* --- SUB HEADER --- */
@@ -97,14 +97,109 @@
     }
     /* ^ Makes the sub-header thinner and removes letter-spacing ^ */
 
+    /* v Makes {Non-active} sub-headers text less-relevant v */
+    .uk-navbar-nav>li>a {
+    color: #737373;
+    }
+    /* ^ Makes {Non-active} sub-headers text less-relevant ^ */
+
     /* v Gives a background on hover over text + removes shadowing v */
     .uk-navbar-nav>li:hover>a {
-    text-shadow: 0 0 0;
+    text-shadow: none;
     background-color: #101010;
     transition: .2s;
     }
-
     .uk-navbar-nav>li.uk-active>a {
-    text-shadow: 0 0 0;
+    text-shadow: none;
+    color: #bdbdbd;
+    font-weight: bold;
+    background-color: #101010;
     }
     /* ^ Gives a background on hover over text + removes shadowing ^ */
+
+    /* v Removes padding to make dropdown flat + centers text v */
+    .uk-navbar-dropdown {
+    text-align: center;
+    padding: 0px;
+    letter-spacing: normal;
+    }
+    /* ^ Removes padding to make dropdown flat + centers text ^ */
+
+    /* v Creates a hover effect behind the text v */
+    .uk-navbar-dropdown a:hover {
+    background-color: #101010;
+    }
+    /* ^ Creates a hover effect behind the text ^ */
+
+    /* v Changes color of the "Genre" drop-down text v */
+    .uk-navbar-dropdown-nav>li>a {
+    color: #bdbdbd;
+    }
+    /* ^ Changes color of the "Genre" drop-down text ^ */
+
+    /* v Removes text-shadow from "genre" drop-down v */
+    .uk-navbar-dropdown-nav>li>a:hover {
+    text-shadow: none;
+    }
+    /* ^ Removes text-shadow from "genre" drop-down ^ */
+
+                /* --------- S P A C I N G ----------- */
+                        /* --- END
+                                SUB 
+                                 HEADER --- */
+                /* --------- S P A C I N G ----------- */
+
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-❤-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+
+                /* --------- S P A C I N G ----------- */
+                        /* --- MAIN PAGE --- */
+                /* --------- S P A C I N G ----------- */
+
+    /* v Changes background color behind articles + adds spacing v */
+    article {
+    background-color: #101010;
+    margin: 20px 0;
+    position: relative;
+    }
+    /* ^ Changes background color behind articles + adds spacing ^ */
+
+    /* v Effects the article Header v */
+    h2.uk-margin-large-top.uk-margin-remove-bottom.uk-article-title {
+    background-color: #0e0e0e;
+    text-shadow: none;
+    }
+    /* ^ Effects the article Header ^ */
+
+    /* v Slight Hover-over effect on the Article Headers v */
+    .uk-link a:hover, a.uk-link-reset:hover {
+    text-shadow: none;
+    color: #bdbdbd !important;
+    transition: .4s;   
+    }
+    /* ^ Slight Hover-over effect on the Article Headers ^ */
+
+    /* v Removes border and {inital} spacing prior to this v */
+    .uk-article+.uk-article:before {
+    border-top: none;
+    margin: 0px;
+    }
+    /* v Removes border and {inital} spacing prior to this v */
+
+    /* v Makes the meta at the bottom + removes letter-spacing format v */
+    .uk-article-meta {
+    letter-spacing: normal;
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+    color: #505050;
+    }
+    /* ^ Makes the meta at the bottom + removes letter-spacing format ^ */
+
+    /* v Changes color and creates more of a gap between Article Header and paragraphs. v */
+    .uk-margin-medium-top {
+    margin-top: 20px!important;
+    color: #505050;
+    }
+    /* ^ Changes color and creates more of a gap between Article Header and paragraphs. ^ */
+
+
