@@ -1,0 +1,110 @@
+
+                /*
+                  * DESIGNED BY Cake#0585. (Discord if any problems)
+                   * THANKS FOR USING.
+                    * LET YOUR EYES THANK YOU.
+                     * EDIT TO YOUR PLEASING. TRIED TO MAKE IT AS USER-FRIENDLY AS POSSIBLE.
+                      */
+
+                /* --------- S P A C I N G ----------- */
+                     /* --- GLOBAL SETTINGS --- */
+                /* --------- S P A C I N G ----------- */
+
+    /* v uses the whole space v */
+    .tm-page-container .tm-page {
+    max-width: 100%;
+    }
+    /* ^ uses the whole space ^ */
+
+                /* --------- S P A C I N G ----------- */
+                        /* --- END
+                                GLOBAL
+                                 SETTINGS --- */
+                /* --------- S P A C I N G ----------- */
+
+
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-❤-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+
+
+                /* --------- S P A C I N G ----------- */
+                        /* --- MAIN HEADER --- */
+                /* --------- S P A C I N G ----------- */
+
+    /* v Background color v */
+    .tm-toolbar {
+    background-color: #212121;
+    display: grid;        
+    }
+    /* ^ Background color ^ */
+
+    /* v Enables a small animation play-over of text on the header v */
+    .uk-subnav>*>a:focus, .uk-subnav>*>a:hover {
+    color: red;
+    text-shadow: 0 0 0;
+    transform: scale(1.1);
+    transition: .4s ease-in-out;
+    }
+
+    .uk-subnav.uk-subnav>*>:first-child a:hover {
+    color: red;
+    }
+/* ^ Enables a small animation play-over of text on the header ^ */
+
+    .uk-subnav>*>:first-child {
+    letter-spacing: normal;
+    text-align: center;
+    }
+
+                /* --------- S P A C I N G ----------- */
+                        /* --- END
+                                MAIN 
+                                 HEADER --- */
+                /* --------- S P A C I N G ----------- */
+
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-❤-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+
+
+                /* --------- S P A C I N G ----------- */
+                        /* --- SUB HEADER --- */
+                /* --------- S P A C I N G ----------- */
+
+
+    /* v Background color v */
+    .uk-navbar-container:not(.uk-navbar-transparent) {
+    background-color: #212121;
+    }
+    /* ^ Background color ^ */
+
+    /* v {Active} horizontal bar above sub-header v */
+    .uk-navbar-nav>li.uk-active>a::before {
+    background-color: #fff;
+    }
+    /* ^ {Active} horizontal bar above sub-header ^ */
+
+    /* v Gives a hover/hover-off effect of said horizontal bar v */
+    .uk-navbar-nav>li:hover>a::before {
+    background-color: #bdbdbd;
+    }
+    .uk-navbar-nav>li>a::before {
+    background-color: #505050;
+    }
+    /* ^ Gives a hover/hover-off effect of said horizontal bar ^ */
+
+    /* v Makes the sub-header thinner and removes letter-spacing v */
+    .uk-navbar-nav>li>a {
+    letter-spacing: normal;
+    min-height: 40px;
+    }
+    /* ^ Makes the sub-header thinner and removes letter-spacing ^ */
+
+    /* v Gives a background on hover over text + removes shadowing v */
+    .uk-navbar-nav>li:hover>a {
+    text-shadow: 0 0 0;
+    background-color: #101010;
+    transition: .2s;
+    }
+
+    .uk-navbar-nav>li.uk-active>a {
+    text-shadow: 0 0 0;
+    }
+    /* ^ Gives a background on hover over text + removes shadowing ^ */
