@@ -9,6 +9,18 @@
 /* ------------------------------=------------------------------ */
 
 
+                /* BELOW IS USED FOR THE NEWSLETTER PROMPT */
+                form#newsletter_form input {
+                background-color: #1d1d1d;
+                outline: none;
+                color: #bbb
+                }
+                /* ABOVE IS USED FOR THE NEWSLETTER PROMPT */
+
+
+/* ------------------------------=------------------------------ */
+
+
                 /* BELOW IS USED FOR THE MENU HYPER-LINKS */
                 #header 
                     {
@@ -193,6 +205,30 @@
 
 /* ------------------------------=------------------------------ */
 
+
+                /* BELOW IS FOOTER SETTINGS */
+                footer h3 {
+                color: #888;
+                text-align: center;
+                }
+                footer p {
+                text-align: center;
+                }
+                footer ul.links {
+                text-align: center !important;
+                }
+                footer ul.links li {
+                text-align: center !important;
+                float: none;
+                display: inline-block
+                }
+                ul.follow {
+                margin-left: 60px;
+                }
+                /* BELOW IS FOOTER SETTINGS */
+
+
+/* ------------------------------=------------------------------ */
 
                 /* BELOW IS TO SCROLLBAR CUSTOMISATION */
                 ::-webkit-scrollbar-track
