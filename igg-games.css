@@ -163,6 +163,24 @@
     }
     /* ^ Changes background color behind articles + adds spacing ^ */
 
+    /* v Changes the top slideshow background, text and adds a hover effect v */
+    div#n2-ss-3 .n2-ss-slide {
+    background-color: #101010;
+    }
+    div#n2-ss-3 .n2-ss-slide:hover {
+    opacity: .8;
+    transition: .4s;
+    }
+    div#n2-ss-3 .n2-ss-layer .n2-font-04b362b39eaae4b6530100d84f337485-hover {
+    text-shadow: none;
+    color: #bdbdbd;
+    }
+    div#n2-ss-3 .n2-ss-button-container a div {
+    color: #505050;
+    text-shadow: none;
+    }
+    /* ^ Changes the top slideshow background, text and adds a hover effect ^ */
+
     /* v Effects the article Header v */
     h2.uk-margin-large-top.uk-margin-remove-bottom.uk-article-title {
     background-color: #0e0e0e;
@@ -175,6 +193,7 @@
     text-shadow: none;
     color: #bdbdbd !important;
     transition: .4s;   
+    letter-spacing: .2px; /*(Remove this to remove the slight spacing effect on hover)*/
     }
     /* ^ Slight Hover-over effect on the Article Headers ^ */
 
@@ -193,6 +212,10 @@
     right: 0;
     color: #505050;
     }
+    .uk-article-meta a:hover {
+    text-shadow: none;
+    color: #bdbdbd!important;
+    }
     /* ^ Makes the meta at the bottom + removes letter-spacing format ^ */
 
     /* v Changes color and creates more of a gap between Article Header and paragraphs. v */
@@ -202,4 +225,38 @@
     }
     /* ^ Changes color and creates more of a gap between Article Header and paragraphs. ^ */
 
+    /* v paginations (page numbers) v */
+    .uk-pagination>*>* {
+    color: #bdbdbd;
+    letter-spacing: normal;
+    border: none;
+    text-shadow: none;
+    }
+    .uk-pagination>.uk-active>* {
+    background-color: #101010;
+    color: #bdbdbd;
+    font-weight: 800;
+    }
+    .uk-pagination>*>:hover {
+    background-color: #101010;
+    text-shadow: none;
+    transition: .6s;
+    }
+    /* ^ paginations (page numbers) ^ */
+   
 
+    /* v My Watermark v */
+    ul.uk-pagination.uk-margin-large.uk-flex-center {
+    position: relative;
+    }
+    ul.uk-pagination.uk-margin-large.uk-flex-center::after{
+    content: "Designed by Cake \a (Cake#0585 - Discord)";
+    font-weight: bolder;
+    white-space: pre-wrap; 
+    font-size: 10.5px;
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    color: #505050;
+    }
+    /* ^ My Watermark ^ */
