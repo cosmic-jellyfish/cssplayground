@@ -26,6 +26,9 @@
                     {
                     background-color: #1d1d1d
                     }
+                #menu > li div.menuitem > a {
+                    color: #bdbdbd;
+                    }
                 #menu > li > a 
                     {
                     color: white
@@ -251,6 +254,3 @@
 	                background-color: #606060;
                     }
                 /* ABOVE IS TO SCROLLBAR CUSTOMISATION */
-
-
-/* ------------------------------=------------------------------ */
