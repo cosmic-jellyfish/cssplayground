@@ -36,6 +36,8 @@ I **attempt** to make all ***css code*** user-friendly. So you're capable of edi
 * New Scrollbar.
 * New Images over the exisiting to fit with the *new* theme.
 * New hover effects. 
+* New Borders around products
+* CUSTOM / NEW images for socail media and backing of promotions
 * Complete Overhaul of the site to fit a dark-theme.
 * **[PLE STYLE HERE](https://github.com/peepoboi/cssplayground/blob/master/ple.css)**
 
