@@ -19,9 +19,6 @@ Repo is designed to archive CSS for different sites. Simply a back-up save as yo
 
 I **attempt** to make all ***css code*** user-friendly. So you're capable of editing yourself if you're not that familiar. Though I don't always make it user-friendly. *sorry*
 
-<p align="center">
-  <img src="https://i.imgur.com/ZXVPFHN.png">
-</p>
 
 ## Mockups
 ##### (open them in a new tab to experience full-quality)
