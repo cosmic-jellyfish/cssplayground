@@ -2,10 +2,9 @@
 ![INITIATE_it](https://i.imgur.com/1rFKCCM.jpg "Dark_Mode_Activated.")
 
 ## Before/Afters
-* [OzBargain Before/After](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=27eac957-e286-11ea-bf88-a15b6c7adf9a)
-* [DSOGaming Before/After](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=19d2571c-e286-11ea-bf88-a15b6c7adf9a)
-* [PLE Before/After](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=00bf19ae-e286-11ea-bf88-a15b6c7adf9a)
-
+* [OzBargain Before/After](https://i.imgur.com/iUoN5WR.png)
+* [DSOGaming Before/After](https://i.imgur.com/p4R6hSi.png)
+* [PLE Before/After](https://i.imgur.com/JUGC4PQ.png)
 
 
 I use the following links below (appropriate to each browser) to style the websites with the code uploaded here. All are **official** links.
