@@ -4,6 +4,7 @@
 ## Before/Afters
 * [OzBargain Before/After](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=7ea1b7fa-0379-11eb-bf88-a15b6c7adf9a)
 * [DSOGaming Before/After](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=0893f522-037a-11eb-bf88-a15b6c7adf9a)
+* [Reddit Before/After](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=d218182c-037c-11eb-bf88-a15b6c7adf9a)
 * [PLE Before/After](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=f064bacc-0379-11eb-bf88-a15b6c7adf9a)
 
 
