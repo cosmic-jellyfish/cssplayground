@@ -1,19 +1,15 @@
 # WHITE_REDACTED, INITIATE DARKMODE.
 ![INITIATE_it](https://i.imgur.com/1rFKCCM.jpg "Dark_Mode_Activated.")
 
-## Before/Afters
-* [OzBargain Before/After](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=7ea1b7fa-0379-11eb-bf88-a15b6c7adf9a)
-* [DSOGaming Before/After](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=0893f522-037a-11eb-bf88-a15b6c7adf9a)
-* [Reddit Before/After](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=d218182c-037c-11eb-bf88-a15b6c7adf9a)
-* [PLE Before/After](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=f064bacc-0379-11eb-bf88-a15b6c7adf9a)
-* [ple](https://raw.githubusercontent.com/peepoboi/cssplayground/master/ple.user.css)
-
+## Install Stylus
 I use the following links below (appropriate to each browser) to style the websites with the code uploaded here. All are **official** links.
 * [Stylus (Chrome)](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en), 
 * [Stylus (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), 
 * [Stylus (Opera)](https://addons.opera.com/en/extensions/details/stylus/)
 
-
+## Install Themes
+Please make sure to download stylus **prior** to downloading the themes below. 
+* [PLE](https://raw.githubusercontent.com/peepoboi/cssplayground/master/ple.user.css)
 
 Repo is designed to archive CSS for different sites. Simply a back-up save as you will.
 
