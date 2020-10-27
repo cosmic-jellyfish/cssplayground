@@ -10,6 +10,7 @@ I use the following links below (appropriate to each browser) to style the websi
 ## Install Themes
 Please make sure to download stylus **prior** to downloading the themes below. 
 * [PLE](https://raw.githubusercontent.com/peepoboi/cssplayground/master/ple.user.css)
+* [DSOGaming](https://raw.githubusercontent.com/peepoboi/cssplayground/master/dsogaming.css)
 
 
 &nbsp;
