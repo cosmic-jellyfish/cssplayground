@@ -10,7 +10,6 @@ I use the following links below (appropriate to each browser) to style the websi
 
 
 &nbsp;
-&nbsp;
 
 Repo is designed to archive CSS for different sites. Simply a back-up save as you will.
 
