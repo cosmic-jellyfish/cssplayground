@@ -7,10 +7,6 @@ I use the following links below (appropriate to each browser) to style the websi
 * [Stylus (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), 
 * [Stylus (Opera)](https://addons.opera.com/en/extensions/details/stylus/)
 
-## Install Themes
-Please make sure to download stylus **prior** to downloading the themes below. 
-* [PLE](https://raw.githubusercontent.com/peepoboi/cssplayground/master/ple.user.css)
-* [DSOGaming](https://raw.githubusercontent.com/peepoboi/cssplayground/master/dsogaming.css)
 
 
 &nbsp;
