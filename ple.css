@@ -1034,3 +1034,659 @@
                                                                             Much Love
                                                                               ᴄᴀᴋᴇ
                                                                                                                                                                                                     */
+
+
+
+
+
+
+
+/* ====== BELOW IS FOR A FEW DAYS ARCHIVE, WILL BE DELETED, DO NOT USE ANYTHING FROM BELOW  ====== */
+
+
+
+                /*
+                  * DESIGNED BY Cake#0585. (Discord if any problems)
+                   * THANKS FOR USING.
+                    * LET YOUR EYES THANK YOU.
+                     * I WANT TO THANK ((PLE)) FOR DOING A LOT OF THE HEAVY LIFTING.
+                      * EDIT TO YOUR PLEASING. TRIED TO MAKE IT AS USER-FRIENDLY AS POSSIBLE.
+                       */
+
+
+                /* --------- S P A C I N G ----------- */
+                        /* --- MAIN HEADER --- */
+                /* --------- S P A C I N G ----------- */
+
+                     /* V Search Box settings V*/
+    .searchBox {
+    background-color: #101010;
+    border: 1px solid #191919;
+    color: #bdbdbd;
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    text-align: center;
+    outline: none;
+    }
+
+    [type=search]:focus {
+    width: 450px;
+    }
+                  /* ^ (end) Search Box settings ^ */
+                /* --------- S P A C I N G ----------- */
+
+                        /* V CART SETTINGS V */
+    /* v This is the text-colour of "cart" + background to match "my account" / "store locator" v */
+    .CartMiniContent {
+    color: #101010;
+    background-color: #bdbdbd;
+    }
+    /* ^ This is the text-colour of "cart" + background to match "my account" / "store locator" ^ */
+
+    /* v This is the text-colour of "Total" whilst hovering over cart v */
+    .CartMiniItemPrice, .CartMiniItemTotal {
+    color: #bdbdbd;
+    }
+    /* ^ This is the text-colour of "Total" whilst hovering over cart ^ */
+
+    /* v Border of the "Cart" drop down v */
+    .CartMiniDropDown {
+    border: 2px solid #505050;
+    }
+    /* ^ Border of the "Cart" drop down ^ */
+
+    /* v Makes the background behind "Total" dark, and gives it a bottom border spacing. v */
+    .CartMiniDropDownItem {
+    background-color: #191919;
+    border-bottom: 2px solid #212121;
+    }
+    /* ^ Makes the background behind "Total" dark, and gives it a bottom border spacing. ^ */
+
+    /* v Makes the background behind "View Cart" and "Checkout" dark v */
+    .cartMiniButtonSticky {
+    background-color: #212121;
+    }
+    /* ^ Makes the background behind "View Cart" and "Checkout" dark ^*/
+
+    /* v These (3) three, make changes to the "Cart" drop-down similar to the "My account" drop down. v */
+    .CartMiniDropDown {
+    display: inline-block;
+    margin-left: -12.3em;
+    width: 150px;
+    position: absolute;
+    z-index: 30;
+    border: 1px solid #505050;
+    }
+
+    .CartMiniItemPrice, .CartMiniItemTotal {
+    width: 100%;
+    font-weight: 700;
+    display: inline-block;
+    padding: 5px;
+    font-size: 14px;
+    vertical-align: middle;
+    text-align: center;
+    }
+
+    .CartMiniDropDownItem {
+    padding: 0px;
+    margin-bottom: 10px;
+    }
+    /* ^ These (3) three, make changes to the "Cart" drop-down similar to the "My account" drop down. ^ */
+
+                      /* ^ (end) CART SETTINGS ^ */
+                /* --------- S P A C I N G ----------- */
+
+                      /* V MY ACCOUNT SETTINGS V */
+    /* v These three effect the "My account" drop-down text v */
+    .loginHeader {
+    color: #bdbdbd;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 16px;
+    }
+
+    .loginMyPLELink {
+    color: #bdbdbd;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    width: 100%;
+    }
+
+    .loginMyPLELink:hover {
+    background-color: #101010;
+    transition: .8s;  
+    }
+    /* ^ These three effect the "My account" drop-down text ^ */
+
+    /* v Effects the login(email) and password box v */
+    .usernameBox  {
+    background-color: #101010;
+    border: 1px solid #191919;
+    color: #bdbdbd;
+    outline: none;
+    }
+    .passwordBox {
+    background-color: #101010;
+    border: 1px solid #191919;
+    color: #bdbdbd;
+    outline: none;
+    }
+    /* ^ Effects the login(email) and password box ^ */
+
+    /* v Effects the "Dont have an account" text v */
+    .noAccountNotice {
+    font-size: 12px;
+    color: #bdbdbd;
+    }
+    /* ^ Effects the "Dont have an account" text ^ */
+
+    /* v Effects the error-login text when entering incorrect details v */
+    .loginErrorText {
+    font-weight: 800;
+    color: #ff0000b0;
+    }
+    /* ^ Effects the error-login text when entering incorrect details ^ */
+
+    /* v Effects the "forgot password" text + hover v */
+    .forgotPasswordLink {
+    color: #bdbdbd;
+    font-size: 12px;
+    font-weight: 600;
+    }
+    .forgotPasswordLink:hover {
+    background-color: #101010;
+    }
+    /* ^ Effects the "forgot password" text + hover ^ */
+
+    /* v makes the area effected by the background-hover clickable with the link v */
+    .loginMyPLELink a {
+    display: block;
+    padding: 10px;
+    margin: -10px;
+    }
+    /* ^ makes the area effected by the background-hover clickable with the link ^ */
+
+    /* v changed the way the dropdown works, smaller and more compact to fit the theme of the delivery one v */
+    .CartMiniAccountDropDown {
+    display: inline-block;
+    margin-left: -75px;
+    width: 150px;
+    position: absolute;
+    border: 1px solid #505050;
+    }
+    /* ^ changed the way the dropdown works, smaller and more compact to fit the theme of the delivery one ^ */
+
+                   /* ^ (end) MY ACCOUNT SETTINGS ^ */
+                /* --------- S P A C I N G ----------- */
+
+                      /* V DELIVERY SETTINGS V */
+    /* v These effect the text colour in the delivery dropdown menu v */
+    .LocationDropDown  {
+    color: #bdbdbd;
+    border: 1px solid #505050;
+    }
+    .LocationDropDown a {
+    color: #bdbdbd;
+    }
+    /* ^ These effect the text colour in the delivery dropdown menu ^ */
+
+    /* v Hides the icon of the geo-location v */
+    .geolocationIcon {
+    display: none;
+    }
+    /* ^ Hides the icon of the geo-location ^ */
+
+    /* v Makes the "postcode" input box dark, neat and tidy etc, ya know? v */
+    .LocationPostcodeCapture input {
+    background-color: #101010;
+    color: white;
+    outline: none;
+    border: 1px solid #191919;
+    }
+    /* ^ Makes the "postcode" input box dark, neat and tidy etc, ya know? ^ */
+    
+    /* v Adds some extra spacing between the postcode box and click and collect stores v */
+    .geolocationWrapper {
+    margin-bottom: 15px;
+    }
+    /* ^ Adds some extra spacing between the postcode box and click and collect stores ^ */
+
+    /* v Makes "Delivery" and "Click and Collect" stand out more v */
+    .LocationStoreSelectorType {
+    color: #bdbdbd;
+    font-weight: bolder;
+    }
+    /* ^ Makes "Delivery" and "Click and Collect" stand out more ^ */
+
+    /* v Makes the "states" color & background stand out more v */
+    .LocationStoreSelectorState {
+    color: #bdbdbd;
+    background-color: #191919;
+    }
+    /* ^ Makes the "states" color & background stand out more ^ */
+ 
+    /* v Hover effects for all location text (they're lowkey buttons) v */
+    .LocationStoreSelector:hover {
+    background-color: #101010;
+    transition: .8s;  
+    }
+    /* ^ Hover effects for all location text  (they're lowkey buttons)  */
+                      /* ^ (end) DELIVERY SETTINGS ^ */
+
+                /* --------- S P A C I N G ----------- */
+                        /* --- END
+                                MAIN 
+                                 HEADER --- */
+                /* --------- S P A C I N G ----------- */
+
+
+
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-P-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-L-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-E-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+
+
+
+                /* --------- S P A C I N G ----------- */
+                        /* --- SUB HEADER --- */
+                /* --------- S P A C I N G ----------- */
+
+                /* V UNIVERSAL SUB-CATEGORIES SETTINGS V */
+    /* v Main Dropdowns from the Subheader effects v */
+    .siteCategoriesMain {
+    color: #bdbdbd;
+    background-color: var(--bg-colour-standard);
+    }
+
+    .siteNavigationContainerItem {
+    text-shadow: 1px 1px 0 #000;
+    }
+    /* ^ Main Dropdowns from the Subheader effects ^ */
+
+    /* v Removes a slight shadow below the sub-header v */
+    .siteTop {
+    box-shadow: 0 0 0 0;
+    }
+    /* ^ Removes a slight shadow below the sub-header ^ */
+
+             /* ^ (end) UNIVERSAL SUB-CATEGORIES SETTINGS ^ */
+                /* --------- S P A C I N G ----------- */
+
+                 /* V "ALL CATEGORIES" TAB SETTINGS V */
+    /* v "Pin/Shop all Brands" effects v */
+    .siteCategoriesPin {
+    border: 1px solid #bdbdbd;
+    }
+    .siteCategoriesPin:hover {
+    background-color: #101010;
+    transition: .8s;
+    }
+    /* ^ "Pin/Shop all Brands" effects ^ */
+
+    /* v Hover effect over all sub-heading categories on the sub-heading v */ 
+    .siteNavigationContainerItem:hover {
+    background-color: #101010;
+    transition: .8s;
+    }
+    /* ^ Hover effect over all sub-heading categories on the sub-heading ^ */ 
+
+    /* v Hover effect over (main) sub-heading categories/titles v */ 
+    li.siteCategoriesCategoryL1:hover {
+    color: #bdbdbd;
+    background-color: #101010;
+    }
+    /* ^ Hover effect over (main) sub-heading categories/titles ^ */ 
+
+    /* v Hover effect over sub-menu items (whilst hovering over a main-catergory) v */
+    .siteCategoriesCategoryName:hover {
+    background-color: #101010;
+    transition: .8s;
+    }
+    /* ^ Hover effect over sub-menu items (whilst hovering over a main-catergory) ^ */
+
+    /* v Sub-menu Titles, more spacing and colouring, bit neater v */
+    .siteCategoriesSubMenuTitle {
+    color: #fff;          /*(#505050 works as well.)*/
+    font-weight: bolder;
+    padding-bottom: 15px;
+    }
+    /* ^ Sub-menu Titles, more spacing and colouring, bit neater ^ */
+
+              /* ^ (end) "ALL CATEGORIES TAB" SETTINGS ^ */
+                /* --------- S P A C I N G ----------- */
+
+                 /* V "DESKTOP COMPUTERS" SETTINGS V */
+    /* v Creates a new layout for the dropdown v */
+    .CustomBuildDropTextLink {
+    color: #bdbdbd;
+    text-align: center;
+	min-width: 500px;   /*(Delete this to have the old layout)*/
+	padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #191919;
+    }
+    /* ^ Creates a new layout for the dropdown ^ */
+
+    /* v Hover effect over links v */
+    .CustomBuildDropTextLink:hover {
+    background-color: #101010;
+    }
+    /* ^ Hover effect over links ^ */
+
+    /* v Expands the clickable area of links within the hover block v */
+    .CustomBuildDropTextLink a {
+    display: block;
+    padding: 10px;
+    margin: -10px;
+    }
+    /* ^ Expands the clickable area of links within the hover block ^ */
+
+    /* v This effects behind the large banner of pc categories v */
+    .CustomBuildDropDownContainer {
+    background-color: #191919;
+    }
+    /* ^ This effects behind the large banner of pc categories ^ */
+
+    /* v Effects behind the main catergory titles v */
+    .CustomBuildDropTextLink.CustomBuildDropPromotionalSeries {
+    background-color: #212121;
+    text-align: center;
+    padding: 0 10px 0 10px;
+    }
+    /* ^ Effects behind the main catergory titles ^ */
+
+    /* v Removed a border and padding above the text "Total Custom Build" v */
+    .CustomBuildDropTotalCustom {
+    border-top: 0px solid;
+    padding: 0 0 0 0;
+    }
+    /* ^ Removed a border and padding above the text "Total Custom Build" ^ */
+
+    /* v This is at the very bottom, below "Intel X Series".. v */
+    .CustomBuildDropTextLinksArea {
+    background-color: #191919;
+    }
+    /* v This is at the very bottom, below "Intel X Series".. v */ 
+
+               /* ^ (end) "DESKTOP COMPUTERS" SETTINGS ^ */
+                /* --------- S P A C I N G ----------- */
+
+                    /* V "NOTEBOOKS" SETTINGS V */
+    /* v These (2) effect the main-title links and such v */
+    .nbkItem {
+    color: #fff;
+    border-top: 1px solid #505050;
+    }
+    .nbkItem a:hover {
+    color: #505050;
+    transition: .4s;
+    }
+    /* ^ These (2) effect the main-title links and such ^ */
+
+    /* v These (4) four effect the sub-links prior to and on hover v */
+    .nbkItemChild {
+    color: #bdbdbd;
+    }
+    .nbkItemChild a {
+    display: block;
+    }
+    .nbkItemChild:hover:not(.nbkBrands) {
+    background-color: #101010;
+    transition: .8s;
+    }
+    .nbkItemChild a:hover {
+    color: #bdbdbd;
+    }
+    /* ^ These (4) four effect the sub-links prior to and on hover ^ */
+
+    /* v This adjusts the whole-dropdown background colour + makes it so it doesn't expand due to expanding clickable area v */
+    .nbkAddon {
+    background-color: #212121;
+    max-height: 293px;
+    }
+    /* ^ This adjusts the whole-dropdown background colour + makes it so it doesn't expand due to expanding clickable area ^ */
+
+    /* v Makes the Brand images inline with eachother v */
+    .nbkBrands {
+    display: flex;
+    }
+    /* ^ Makes the Brand images inline with eachother ^ */
+
+    /* v These adjust the opacity of the images prior and then hover, 
+         also adds a darker border to fit the theme                 v */
+    .nbkBrandImage {
+    border: 5px solid #191919;
+    opacity: .5;
+    }
+    img.nbkBrandImage:hover {  /*(img isn't needed but i like it, helps identify what i'm working on)*/
+    opacity: 1;
+    transition: .8s;
+    }
+    /* ^ These adjust the opacity of the images prior and then hover, 
+         also adds a darker border to fit the theme                 ^ */
+
+                   /* ^ (end) "NOTEBOOKS" SETTINGS ^ */
+                /* --------- S P A C I N G ----------- */
+
+                 /* V "COMPONENTS" "GAMING" "CASE & MODDING" "COOLING"
+                    "MONITOR" "PERIPHERALS" "CABLES & ACCESSORIES" &
+                    "NETWORK DEVICES" SETTINGS V */
+    /* v Background colouring behind the whole dropdown v */
+    .siteNavigationSubMenu {
+    background-color: #212121;
+    }
+    /* ^ Background colouring behind the whole dropdown ^ */
+
+    /* v Colour effect + spacing of titles/Categories of the dropdown v */
+    .siteNavigationCategory>a{
+    color: #fff;
+    padding-bottom: 15px;
+    }
+    .siteNavigationCategory>a:hover{
+    color: #505050;
+    transition: .4s;
+    }
+    /* ^ Colour effect + spacing of titles/Categories of the dropdown ^ */
+
+    /* v Colour of all sub-links v */
+    .siteNavigationCategoryChild {
+    color: #bdbdbd;
+    }
+    /* ^ Colour of all sub-links ^ */
+
+    /* v Makes all sub-links have an expanded area to activate/click v */
+    .siteNavigationCategoryChild a {
+    display: block;
+    }
+    /* ^ Makes all sub-links have an expanded area to activate/click ^ */
+
+    /* v Hover effect of all sub-links v */
+    .siteNavigationCategoryChild:hover {
+    background-color: #101010;
+    transition: .8s;
+    }
+    /* ^ Hover effect of all sub-links ^ */
+
+                 /* ^ (end) "COMPONENTS" "GAMING" "CASE & MODDING" "COOLING"
+                    "MONITOR" "PERIPHERALS" "CABLES & ACCESSORIES" &
+                    "NETWORK DEVICES" SETTINGS ^ */
+                /* --------- S P A C I N G ----------- */
+
+                      /* V "SPECIALS" SETTINGS V */
+    /* v Background colour behind "Specials" catergory v */
+    .c1877 {
+    background-color: #212121;
+    }
+    /* ^ Background colour behind "Specials" catergory ^ */
+
+    /* v Effects of "Bundle Deals" v */
+    .c2101 {
+    color: #bdbdbd;
+    }
+    .c2101:hover {
+    background-color: #101010;
+    transition: .8s;
+    }
+    .c2101 a {
+    display: block;
+    }
+    /* ^ Effects of "Bundle Deals" ^ */
+
+    /* v Effects "Specials" + "Promotions" (kek both the same link) v */
+    .c2370 {
+    color: #bdbdbd;
+    }
+    .c2370:hover {
+    background-color: #101010;
+    transition: .8s;
+    }
+    .c2370 a {
+    display: block;
+    }
+    /* ^ Effects "Specials" + "Promotions" (kek both the same link) ^ */
+
+    /* v Effects "Ex Demo Bargains" v */
+    .c2449 {
+    color: #bdbdbd;
+    }
+    .c2449:hover {
+    background-color: #101010;
+    transition: .8s;
+    }  
+    .c2449 a{
+    display: block;
+    }
+    /* ^ Effects "Ex Demo Bargains" ^ */
+
+    /* v Effects "Clearance" v */
+    .c2582 {
+    color: #bdbdbd;
+    }
+    .c2582:hover {
+    background-color: #101010;
+    transition: .8s;
+    }
+    .c2582 a {
+    display: block;
+    }
+    /* ^ Effects "Clearance" ^ */
+
+    /* v Effects "Latest Email Deals" v */
+    .c3106 {
+    color: #bdbdbd;
+    }
+    .c3106:hover {
+    background-color: #101010;
+    transition: .8s;
+    }
+    .c3106 a {
+    display: block;
+    }
+    /* ^ Effects "Latest Email Deals" ^ */
+                   /* ^ (end) "SPECIALS" SETTINGS ^ */
+
+                /* --------- S P A C I N G ----------- */
+                        /* --- END
+                                SUB 
+                                 HEADER --- */
+                /* --------- S P A C I N G ----------- */
+
+
+
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-P-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-L-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+/* -_-_-_-_-_--_-_-_-_-_--_-_-_-_-_-E-_-_-_-_-_--_-_-_-_-_--_-_-_-_-_- */
+
+
+
+
+                /* --------- S P A C I N G ----------- */
+                        /* --- MAIN BODY --- */
+                /* --------- S P A C I N G ----------- */
+
+              /* --- V UNIVERSAL MAIN BODY CHANGES V --- */
+    /* v all have an effect, read the note next to it to understand. v */
+    .themeLight {
+    --bg-colour-standard: #212121;                  /* main content / body colours */
+    --bg-colour-almostStandard: #f5f5f5;
+    --bg-colour-contrast: #101010;                  /* uhm. this effects the "email address" in the footer.. yeah. */
+    --bg-colour-almostContrast: #363636;
+    --bg-colour-contrastButton: #696969;
+    --fg-colour-standard: #505050;                  /* Pricing numbers + cart */
+    --fg-colour-almostStandard: #bdbdbd;            /* Products name */
+    --border-colour-standard: #101010;              /* Border colour on all products */
+    --border-colour-alternate: #f1f1f1;             /* has no effect now */
+    --border-colour-standardFeature: #505050;       /* Hover effect on borders over products */
+    --border-colour-otherFeature: #bdbdbd;          /* "My account" + "Delivery" border colours*/
+    --fg-colour-inputBorder: #000;
+    --fg-colour-generalBorder: #bdbdbd;             /* Review Border colours */
+    --fg-colour-hardBorder: #cacaca;
+    --bg-colour-stdButton: #191919;                 /* Logout button in "My account" colour */
+    --bg-colour-stdButton-hover: #101010;           /* Hover effect on logout button */
+    --bg-colour-stdButton-hover-border: #101010;    /* ..Border colour of logout button */
+    --fg-colour-stdButton-hover: #bdbdbd;           /* Currently this effects the COVID-19 status banner and the "My account" hover text of logout */
+    --plered: #191919;                              /* header and overall accent colours */ /*(Thanks PLE for the heavy lifting ♡)*/
+    }
+    /* ^ all have an effect, read the note next to it to understand. ^ */
+            /* --- ^ (end) UNIVERSAL MAIN BODY CHANGES ^ --- */
+                /* --------- S P A C I N G ----------- */
+
+               /* V ACCOUNT (bottom wrapper) SETTINGS V */
+
+    /* v Effects the background colour + height around "Promotion redemption" etc banner v */
+    .accountHeaderBottomLinkWrapper {
+    background-color: #191919;
+    min-height: 100px;
+    }
+    /* ^ Effects the background around "Promotion redemption" etc banner ^ */
+    
+    /* v Effects the top "bottom" wrapper to help the dark-mode v */
+    .accountHeaderBottomWrapper {
+    background-color: #191919;
+    }
+    /* ^ Effects the top "bottom" wrapper to help the dark-mode ^ */
+
+    /* v Effects the border colour between tabs to keep that PLE theme of reeeeeeed v */
+    .accountHeaderStatNavStatNavWrapper {
+    border-right: 2px solid #f01212;
+    }
+    /* ^ Effects the border colour between tabs to keep that PLE theme of reeeeeeed ^ */
+
+    /* v Makes the bottom wrapper (Promotion Redemption) etc center v */
+    .accountHeaderBottomLinkCenterWrapper {
+    max-width: fit-content;
+    }
+    /* ^ Makes the bottom wrapper (Promotion Redemption) etc center ^ */
+    
+    /* v Hover effects over the bottom wrapper v */
+    .accountHeaderBottomLink:hover {
+    background-color: #101010;
+    }
+    /* ^ Hover effects over the bottom wrapper ^ */
+
+              /* ^ (end) ACCOUNT (bottom wrapper) SETTINGS ^ */
+                /* --------- S P A C I N G ----------- */
+
+                      /* V MAIN BODY SETTINGS V */
+
+    /* v Effects the text "Recently Viewed" colour v */
+    .c3753 {
+    padding: 10px;
+    color: #bdbdbdbd;
+    }
+    /* ^ Effects the text "Recently Viewed" colour ^ */
+
+    /* v Effects the "No items to display" colour if you have no items to see v */
+    .noItemNotice {
+    color: #bdbdbd;
+    }
+    /* ^ Effects the "No items to display" colour if you have no items to see ^ */
+
+    /* v Effects the "Current Promotions" colour at the bottom v */
+    .c3868 {
+    color: #bdbdbd;
+    }
+    /* ^ Effects the "Current Promotions" colour at the bottom ^ */
